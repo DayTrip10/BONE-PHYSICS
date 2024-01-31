@@ -57,21 +57,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Magic Light Probes\Editor\DependencyChecker.cs" />
+    <Compile Include="Assets\Magic Light Probes\Editor\MLPEditor.cs" />
+    <Compile Include="Assets\Magic Light Probes\Editor\MLPLightEditor.cs" />
+    <Compile Include="Assets\Magic Light Probes\Editor\MLPUtilities.cs" />
+    <Compile Include="Assets\Magic Light Probes\Editor\MLPInfoWindow.cs" />
+    <Compile Include="Assets\Magic Light Probes\Editor\MLPVolumeEditor.cs" />
+    <Compile Include="Assets\Magic Light Probes\Editor\MLPUpdater.cs" />
+    <Compile Include="Assets\UnityTechnologies\EffectExamples\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Magic Light Probes\Editor\MLPTooltipManager.cs" />
+    <Compile Include="Assets\Magic Light Probes\Editor\MLPCombinedMeshEditor.cs" />
     <Compile Include="Assets\Magic Light Probes\Editor\MLPManager.cs" />
     <Compile Include="Assets\Magic Light Probes\Editor\MLPPortal.cs" />
-    <Compile Include="Assets\Magic Light Probes\Editor\MLPCombinedVolumeEditor.cs" />
-    <Compile Include="Assets\Magic Light Probes\Editor\MLPLightEditor.cs" />
-    <Compile Include="Assets\Magic Light Probes\Editor\MLPTooltipManager.cs" />
-    <Compile Include="Assets\Magic Light Probes\Editor\MLPUtilities.cs" />
     <Compile Include="Assets\Magic Light Probes\Editor\MLPQuickEditingEditor.cs" />
-    <Compile Include="Assets\Magic Light Probes\Editor\MLPCombinedMeshEditor.cs" />
-    <Compile Include="Assets\Magic Light Probes\Editor\MLPUpdater.cs" />
-    <Compile Include="Assets\Magic Light Probes\Editor\MLPVolumeEditor.cs" />
-    <Compile Include="Assets\Magic Light Probes\Editor\MLSForceNoProbesEditor.cs" />
-    <Compile Include="Assets\Magic Light Probes\Editor\MLPInfoWindow.cs" />
-    <Compile Include="Assets\Magic Light Probes\Editor\MLPEditor.cs" />
+    <Compile Include="Assets\Magic Light Probes\Editor\MLPCombinedVolumeEditor.cs" />
     <Compile Include="Assets\Magic Light Probes\Editor\GeneralMethods.cs" />
-    <Compile Include="Assets\UnityTechnologies\EffectExamples\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Magic Light Probes\Editor\MLSForceNoProbesEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Editor\x64\Bakery\frender.dll" />
@@ -79,12 +79,10 @@
     <None Include="Assets\Editor\x64\Bakery\ftShowPreview.shader" />
     <None Include="Assets\Editor\x64\Bakery\d3dcompiler_47.dll" />
     <None Include="Assets\Editor\x64\Bakery\shaderSrc\ftrace.cginc" />
-    <None Include="Assets\Editor\x64\Bakery\cudnn64_7.dll" />
     <None Include="Assets\Editor\x64\Bakery\shaderSrc\ftTransformFarSphere.compute" />
     <None Include="Assets\Editor\x64\Bakery\uvrepack.dll" />
     <None Include="Assets\Editor\x64\Bakery\tbb.dll" />
     <None Include="Assets\Editor\x64\Bakery\alphabuffergen.dll" />
-    <None Include="Assets\Editor\x64\Bakery\cudart64_91.dll" />
     <None Include="Assets\Editor\x64\Bakery\halffloat2vb.dll" />
     <None Include="Assets\Editor\x64\Bakery\ftAtlas.shader" />
     <None Include="Assets\Editor\x64\Bakery\optix.51.dll" />
@@ -97,9 +95,7 @@
     <None Include="Assets\Editor\x64\Bakery\optix_denoiser.51.dll" />
     <None Include="Assets\Editor\x64\Bakery\OpenImageDenoise.dll" />
     <None Include="Assets\UnityTechnologies\EffectExamples\Editor\PackageManagerAssembly\PackageImportList.txt" />
-    <None Include="Assets\Editor\x64\Bakery\cudart64_90.dll" />
     <None Include="Assets\Editor\x64\Bakery\optix.6.0.0.dll" />
-    <None Include="Assets\Editor\x64\Bakery\cudart32_91.dll" />
     <None Include="Assets\Editor\x64\Bakery\uvgbuffergen.dll" />
     <None Include="Assets\Editor\x64\Bakery\tbbmalloc.dll" />
   </ItemGroup>
@@ -359,9 +355,6 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.1.0\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
@@ -371,20 +364,26 @@
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.1.0\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.1.0\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.1.0\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.YamlDotNet">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="HurricaneVR.Update">
+      <HintPath>Assets\HurricaneVR\Framework\Editor\Libs\HurricaneVR.Update.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.1.0\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="PackageManagerAssembly">
       <HintPath>Assets\UnityTechnologies\EffectExamples\Editor\PackageManagerAssembly\PackageManagerAssembly.dll</HintPath>
@@ -872,6 +871,9 @@
     <Reference Include="Unity.XR.Interaction.Toolkit">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
@@ -892,6 +894,9 @@
     </Reference>
     <Reference Include="Unity.Burst">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
@@ -938,12 +943,6 @@
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
@@ -958,29 +957,37 @@
       <Project>{95C244A3-9BFA-F262-8CE9-42FCF267B96A}</Project>
       <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{9F1C5625-1C0C-EDED-F824-6A6983E07C71}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
-      <Project>{BF815EF5-9054-3D4C-6BFB-E8616F59F1E6}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="MLMExtensions.csproj">
-      <Project>{CAB7DA66-F452-B6A3-5123-8160A90BBEA7}</Project>
-      <Name>MLMExtensions</Name>
-    </ProjectReference>
     <ProjectReference Include="BakeryRuntimeAssembly.csproj">
       <Project>{93F287BB-4E0F-CBA7-198A-DFC3828C8B54}</Project>
       <Name>BakeryRuntimeAssembly</Name>
+    </ProjectReference>
+    <ProjectReference Include="HurricaneVR.Framework.csproj">
+      <Project>{820053FD-FD91-C5CF-4510-B128E6170B42}</Project>
+      <Name>HurricaneVR.Framework</Name>
     </ProjectReference>
     <ProjectReference Include="BakeryEditorAssembly.csproj">
       <Project>{8BBADD7B-548D-D4F5-43D8-E4F5908036DE}</Project>
       <Name>BakeryEditorAssembly</Name>
     </ProjectReference>
+    <ProjectReference Include="MLMExtensions.csproj">
+      <Project>{CAB7DA66-F452-B6A3-5123-8160A90BBEA7}</Project>
+      <Name>MLMExtensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
+      <Project>{9F1C5625-1C0C-EDED-F824-6A6983E07C71}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
+    </ProjectReference>
+    <ProjectReference Include="HurricaneVR.Editor.csproj">
+      <Project>{C60D8CE6-F50C-8825-5A7D-5199F7BBA5C0}</Project>
+      <Name>HurricaneVR.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="AmplifyShaderEditor.csproj">
       <Project>{CBD6260D-ABD1-6808-A786-AD11F274BB5C}</Project>
       <Name>AmplifyShaderEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
+      <Project>{BF815EF5-9054-3D4C-6BFB-E8616F59F1E6}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

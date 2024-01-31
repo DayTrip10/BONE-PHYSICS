@@ -56,155 +56,155 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaBodyInputWrapper.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaBodyV4\HexaResetZone.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaShared.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaHandsBase.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\SampleScene\Scripts\HexaSteamVRActionEnabler.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\ObjectEnabledWatcher.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaBodyV4\CollisionDetector.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaHands.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaBodyPlayer3.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\ObjectCollisionDisabler.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaBodyPlayer2.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaBodyPlayer.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaBodyV4\HexaBodyPlayer4.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\BasicGrabber.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaBodyV4\HexaBodyInputsBase.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\TimeManager.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\SampleScene\Scripts\MovingPlatform.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaBodyV4\HexaBodyInputs.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\SampleScene\Scripts\SpinningElevator.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\SampleScene\Scripts\HexaComments.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaCameraRig.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\SampleScene\Scripts\SpiderHands.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaXRInputs.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\CircularBuffer.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaBodyPlayerInputs.cs" />
-    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaBodyV4\LocoBallCollision.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\CharacterAnimationMeleeDemo.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\JointBreakBroadcaster.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\AnimationBlocker.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\PlanetaryGravity.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\Warning.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Behaviours\SubBehaviours\SubBehaviourBase.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\Respawning.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\Platform.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\AxisTools.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\PropertyAttributes.cs" />
     <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMaster.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\PuppetMasterPropMelee.cs" />
     <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\InitialVelocity.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Behaviours\BehaviourTemplate.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterStates.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\RagdollManager\Scripts\BipedRagdollReferences.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\FXCollisionBlood.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\UserControlAIMelee.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\Destructor.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PropMuscle.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\DeathBaker.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\LazySingleton.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\Interp.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterSettings.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\PropMelee.cs" />
     <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Behaviours\BehaviourPuppetStateSwitching.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterLite\MuscleLite.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\BoardController.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Booster.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PropRoot.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Character Controllers\CharacterAnimationSimple.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Character Controllers\CharacterAnimationThirdPerson.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\SolverManager.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\LayerSetup.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterHierarchyAPI.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\RagdollManager\Scripts\FixFootColliders.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\TriggerEventBroadcaster.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PressureSensor.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\RaycastShooter.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Baker\Scripts\Animation Modifiers\AnimationModifier.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\MuscleCollisionBroadcaster.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterProp.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterLite\PuppetMasterLite.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Character Controllers\CharacterBase.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\BipedLimbOrientations.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Behaviours\BehaviourFall.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\CharacterMeleeDemo.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Behaviours\BehaviourPuppetHelpers.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PropTemplate.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\PropDemo.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Misc\SlowMo.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\PropPickUpTrigger.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\SkeletonShooter.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterModes.cs" />
     <Compile Include="Assets\Plugins\RootMotion\RagdollManager\Scripts\RagdollEditor.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Baker\Scripts\HumanoidBaker.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Baker\Scripts\Helpers\BakerUtilities.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\CreatePuppetInRuntime.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Muscle.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterTargetMappedState.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Behaviours\SubBehaviours\SubBehaviourCOM.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Character Controllers\UserControlThirdPerson.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\LayerMaskExtensions.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Character Controllers\UserControlAI.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\RagdollManager\Scripts\RagdollCreator.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\V3Tools.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Baker\Scripts\Helpers\AvatarUtility.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\Dying.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Misc\ApplicationQuit.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Character Controllers\SimpleLocomotion.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\BipedReferences.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\Killing.cs" />
     <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterTools.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\RagdollManager\Scripts\JointConverter.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\Comments.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterSetup.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaShared.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaBodyV4\HexaBodyInputs.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Camera Controllers\CameraController.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaBodyV4\HexaResetZone.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaBodyPlayer2.cs" />
     <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\UserControlMelee.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\RigidbodyController.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\ParticleCollisionHandler.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\V2Tools.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\DoxygenManualPuppetMaster.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\BipedNaming.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterLite\PuppetControllerLite.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Camera Controllers\CameraControllerFPS.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Behaviours\BehaviourPuppet.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\QuaTools.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\Skeleton.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\RagdollManager\Scripts\BipedRagdollCreator.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\Singleton.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\Grab.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Behaviours\BehaviourBase.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\NavMeshPuppet.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\CreateRagdollInRuntime.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterMuscleAPI.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\Hierarchy.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Behaviours\BehaviourPuppetBoosting.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Baker\Scripts\Animation Modifiers\AnimationModifierStack.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Baker\Scripts\GenericBaker.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\ObjectCollisionDisabler.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\RotateShoulderToTarget.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\DemoGUIMessage.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\PropMelee.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Behaviours\BehaviourPuppetHelpers.cs" />
     <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\AnimatorIKDemo.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\Navigator.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Baker\_DEMOS\Scripts\FKOffset.cs" />
     <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\CharacterPuppet.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\RotateShoulderToTarget.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Behaviours\SubBehaviours\SubBehaviourBalancer.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Prop.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\BipedLimbOrientations.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\PropDemo.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\CreatePuppetInRuntime.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Muscle.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\Comments.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\RagdollManager\Scripts\BipedRagdollCreator.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\SampleScene\Scripts\SpiderHands.cs" />
     <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterValidation.cs" />
     <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\SkeletonDisconnector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\BallShooter.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Behaviours\SubBehaviours\SubBehaviourBase.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\FXCollisionBlood.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Character Controllers\CharacterAnimationSimple.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterLite\MuscleLite.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PropTemplate.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaBodyV4\LocoBallCollision.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaBodyV4\HexaBodyInputsBase.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\ParticleCollisionHandler.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\TimeManager.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Booster.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\RaycastShooter.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaXRInputs.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Weight.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\LazySingleton.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\DeathBaker.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\RagdollManager\Scripts\FixFootColliders.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Baker\Scripts\Animation Modifiers\AnimationModifier.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterTargetMappedState.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterHumanoidConfig.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Behaviours\BehaviourPuppet.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Character Controllers\CharacterAnimationBase.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\PlanetaryGravity.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Misc\SlowMo.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterSetup.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\Grab.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\BasicGrabber.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\BipedReferences.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\DoxygenManualPuppetMaster.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\CreateRagdollInRuntime.cs" />
     <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\PuppetBoard.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Baker\Scripts\Baker.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\PuppetScaling.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterLite\CollisionEventBroadcaster.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Character Controllers\CharacterThirdPerson.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaBodyPlayer3.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Character Controllers\UserControlThirdPerson.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\SampleScene\Scripts\HexaSteamVRActionEnabler.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterLite\PuppetControllerLite.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Camera Controllers\CameraControllerFPS.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\ObjectEnabledWatcher.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\TriggerEventBroadcaster.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\QuaTools.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Behaviours\BehaviourBase.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterLite\PuppetMasterLite.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\LayerMaskExtensions.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Baker\Scripts\GenericBaker.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\SampleScene\Scripts\SpinningElevator.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Behaviours\BehaviourTemplate.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\V2Tools.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Baker\Scripts\Animation Modifiers\AnimationModifierStack.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\Platform.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\RagdollManager\Scripts\RagdollCreator.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\RagdollManager\Scripts\JointConverter.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Behaviours\BehaviourPuppetBoosting.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Behaviours\SubBehaviours\SubBehaviourBalancer.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\AxisTools.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterModes.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Baker\Scripts\HumanoidBaker.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaBodyV4\CollisionDetector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\RigidbodyController.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaHandsBase.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Prop.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaCameraRig.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Behaviours\BehaviourPuppetDamage.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\Interp.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\SolverManager.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Character Controllers\CharacterBase.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\Dying.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\NavMeshPuppet.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterMuscleAPI.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\InspectorComment.cs" />
     <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PhysXTools.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Character Controllers\CharacterAnimationBase.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Actuator.cs" />
     <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\Planet.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\DemoGUIMessage.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Camera Controllers\CameraController.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Weight.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterHumanoidConfig.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Behaviours\BehaviourPuppetDamage.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\PropertyAttributes.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PropRoot.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\MuscleCollisionBroadcaster.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\CharacterMeleeDemo.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\SkeletonShooter.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaBodyPlayerInputs.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\CharacterAnimationMeleeDemo.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\AnimationBlocker.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PropMuscle.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\BoardController.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\Warning.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\UserControlAIMelee.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\LayerSetup.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Behaviours\BehaviourFall.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\PropPickUpTrigger.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\RagdollManager\Scripts\BipedRagdollReferences.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\SampleScene\Scripts\MovingPlatform.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Character Controllers\CharacterAnimationThirdPerson.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PressureSensor.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\Killing.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaBodyPlayer.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\BipedNaming.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\SampleScene\Scripts\HexaComments.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\CircularBuffer.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Character Controllers\SimpleLocomotion.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\Hierarchy.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Actuator.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaHands.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterStates.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Baker\Scripts\Helpers\AvatarUtility.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Baker\Scripts\Baker.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\JointBreakBroadcaster.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\PuppetMasterPropMelee.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\Destructor.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\Behaviours\SubBehaviours\SubBehaviourCOM.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\V3Tools.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Misc\ApplicationQuit.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\BallShooter.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\Respawning.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterSettings.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterProp.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\Skeleton.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\Singleton.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Character Controllers\CharacterThirdPerson.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaBodyInputWrapper.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\_DEMOS\Assets\Scripts\PuppetScaling.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterHierarchyAPI.cs" />
+    <Compile Include="Assets\Plugins\HexabodyVR\PlayerController\Scripts\HexaBodyV4\HexaBodyPlayer4.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\Navigator.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Shared Demo Assets\Scripts\Character Controllers\UserControlAI.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\PuppetMaster\Scripts\PuppetMasterLite\CollisionEventBroadcaster.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\HexabodyVR\SampleScene\Materials\StandardVertexColor.shader" />
@@ -925,6 +925,9 @@
     <Reference Include="Unity.XR.Interaction.Toolkit">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
@@ -945,6 +948,9 @@
     </Reference>
     <Reference Include="Unity.Burst">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
@@ -993,29 +999,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{9F1C5625-1C0C-EDED-F824-6A6983E07C71}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
-      <Project>{BF815EF5-9054-3D4C-6BFB-E8616F59F1E6}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="MLMExtensions.csproj">
-      <Project>{CAB7DA66-F452-B6A3-5123-8160A90BBEA7}</Project>
-      <Name>MLMExtensions</Name>
-    </ProjectReference>
     <ProjectReference Include="BakeryRuntimeAssembly.csproj">
       <Project>{93F287BB-4E0F-CBA7-198A-DFC3828C8B54}</Project>
       <Name>BakeryRuntimeAssembly</Name>
+    </ProjectReference>
+    <ProjectReference Include="HurricaneVR.Framework.csproj">
+      <Project>{820053FD-FD91-C5CF-4510-B128E6170B42}</Project>
+      <Name>HurricaneVR.Framework</Name>
     </ProjectReference>
     <ProjectReference Include="BakeryEditorAssembly.csproj">
       <Project>{8BBADD7B-548D-D4F5-43D8-E4F5908036DE}</Project>
       <Name>BakeryEditorAssembly</Name>
     </ProjectReference>
+    <ProjectReference Include="MLMExtensions.csproj">
+      <Project>{CAB7DA66-F452-B6A3-5123-8160A90BBEA7}</Project>
+      <Name>MLMExtensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
+      <Project>{9F1C5625-1C0C-EDED-F824-6A6983E07C71}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
+    </ProjectReference>
+    <ProjectReference Include="HurricaneVR.Editor.csproj">
+      <Project>{C60D8CE6-F50C-8825-5A7D-5199F7BBA5C0}</Project>
+      <Name>HurricaneVR.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="AmplifyShaderEditor.csproj">
       <Project>{CBD6260D-ABD1-6808-A786-AD11F274BB5C}</Project>
       <Name>AmplifyShaderEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
+      <Project>{BF815EF5-9054-3D4C-6BFB-E8616F59F1E6}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -56,95 +56,95 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\VRTemplateAssets\Scripts\LaunchProjectile.cs" />
-    <Compile Include="Assets\VRTemplateAssets\Scripts\AnchorVisuals.cs" />
-    <Compile Include="Assets\VRTemplateAssets\Scripts\VideoPlayerRenderTexture.cs" />
-    <Compile Include="Assets\VRTemplateAssets\Scripts\Rotator.cs" />
-    <Compile Include="Assets\VRTemplateAssets\Scripts\BooleanToggleVisualsController.cs" />
-    <Compile Include="Assets\VRTemplateAssets\Scripts\BezierCurve.cs" />
-    <Compile Include="Assets\VRTemplateAssets\Scripts\CalloutGazeController.cs" />
-    <Compile Include="Assets\VRTemplateAssets\Scripts\XRKnob.cs" />
-    <Compile Include="Assets\VRTemplateAssets\Scripts\Callout.cs" />
-    <Compile Include="Assets\VRTemplateAssets\Scripts\RayAttachModifier.cs" />
-    <Compile Include="Assets\VRTemplateAssets\Scripts\StepManager.cs" />
-    <Compile Include="Assets\VRTemplateAssets\Scripts\VideoTimeScrubControl.cs" />
-    <Compile Include="Assets\VRTemplateAssets\Scripts\DestroyObject.cs" />
-    <Compile Include="Assets\VRTemplateAssets\Scripts\XRPokeFollowAffordanceFill.cs" />
-    <Compile Include="Assets\VR Body\IKTargetFollowVRRig.cs" />
-    <Compile Include="Assets\VR Body\IKFootSolver.cs" />
-    <Compile Include="Assets\VR Body\AnimateOnInput.cs" />
-    <Compile Include="Assets\Magic Light Probes\Passes\CheckVisibility.cs" />
-    <Compile Include="Assets\Magic Light Probes\MLPSettings.cs" />
-    <Compile Include="Assets\Magic Light Probes\MLPLight.cs" />
-    <Compile Include="Assets\Magic Light Probes\Passes\CalculateLightIntensity.cs" />
-    <Compile Include="Assets\Magic Light Probes\MagicLightProbes.cs" />
-    <Compile Include="Assets\Magic Light Probes\Passes\CullByHeight.cs" />
-    <Compile Include="Assets\Magic Light Probes\MLPCombinedVolume.cs" />
-    <Compile Include="Assets\Magic Light Probes\MLPQuickEditing.cs" />
-    <Compile Include="Assets\Magic Light Probes\Passes\RemoveUnusedPoints.cs" />
-    <Compile Include="Assets\Magic Light Probes\Passes\CheckNearbyGeometry.cs" />
-    <Compile Include="Assets\Magic Light Probes\Passes\FindGeometryIntersections.cs" />
-    <Compile Include="Assets\Magic Light Probes\Examples\Scripts\Rotator.cs" />
-    <Compile Include="Assets\Magic Light Probes\MLPCombinedMesh.cs" />
-    <Compile Include="Assets\Magic Light Probes\MLPForceSaveProbes.cs" />
-    <Compile Include="Assets\Magic Light Probes\Passes\CullByLightIntensity.cs" />
-    <Compile Include="Assets\Magic Light Probes\MLPTracePoint.cs" />
-    <Compile Include="Assets\Magic Light Probes\MLPPrefab.cs" />
-    <Compile Include="Assets\Magic Light Probes\Passes\FillVolume.cs" />
-    <Compile Include="Assets\Magic Light Probes\Examples\Scripts\PingPong.cs" />
-    <Compile Include="Assets\Magic Light Probes\MLPVolume.cs" />
-    <Compile Include="Assets\Magic Light Probes\Passes\DublicateVertical.cs" />
-    <Compile Include="Assets\Magic Light Probes\Passes\PartialVolumeFilling.cs" />
-    <Compile Include="Assets\Magic Light Probes\Passes\SetDistanceFromGeometry.cs" />
-    <Compile Include="Assets\Magic Light Probes\Passes\CullGeometryCollisions.cs" />
-    <Compile Include="Assets\Magic Light Probes\Passes\CullingByEquivalentColor.cs" />
-    <Compile Include="Assets\Magic Light Probes\Passes\FindOutOfRangePoins.cs" />
-    <Compile Include="Assets\Magic Light Probes\MLPPointData.cs" />
-    <Compile Include="Assets\Magic Light Probes\MLPPoint.cs" />
-    <Compile Include="Assets\Magic Light Probes\MLPForceNoProbes.cs" />
-    <Compile Include="Assets\Magic Light Probes\Passes\StoreNearLights.cs" />
-    <Compile Include="Assets\Magic Light Probes\Passes\FindAreasAtShadingBorders.cs" />
-    <Compile Include="Assets\Magic Light Probes\Passes\FindClosestPoints.cs" />
-    <Compile Include="Assets\Magic Light Probes\Passes\EquivalentProbesOptimization.cs" />
-    <Compile Include="Assets\Magic Light Probes\Passes\CheckForLightLeakAreas.cs" />
-    <Compile Include="Assets\Magic Light Probes\Passes\FindGeometryEdges.cs" />
-    <Compile Include="Assets\Magic Light Probes\Passes\FindOutOfRangeAreas.cs" />
-    <Compile Include="Assets\UnityTechnologies\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
-    <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
-    <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
-    <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\GunShoot.cs" />
-    <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\GunAim.cs" />
-    <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
-    <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoKeypadButton.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoCodeGrabbing.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHelper.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSocketables.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoLockedDoor.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHatchDoor.cs" />
+    <Compile Include="Assets\Magic Light Probes\MLPSettings.cs" />
+    <Compile Include="Assets\Magic Light Probes\MagicLightProbes.cs" />
+    <Compile Include="Assets\Magic Light Probes\Passes\FindClosestPoints.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoKeypadButton.cs" />
+    <Compile Include="Assets\Magic Light Probes\MLPCombinedVolume.cs" />
+    <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHolster.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoFullStabConfetti.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoPowerUnit.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoValveLock.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoValveHologram.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSocketFilter.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoKeyHologram.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scenes\HandSqueezeDemo\DemoPoseSqueeze.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoKeypad.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoDummyArm.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoLeverDisplay.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHolsterOrientation.cs" />
+    <Compile Include="Assets\VRTemplateAssets\Scripts\AnchorVisuals.cs" />
+    <Compile Include="Assets\Magic Light Probes\Passes\FindOutOfRangeAreas.cs" />
+    <Compile Include="Assets\Magic Light Probes\MLPLight.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSocketables.cs" />
+    <Compile Include="Assets\VR Body\IKTargetFollowVRRig.cs" />
+    <Compile Include="Assets\VRTemplateAssets\Scripts\Rotator.cs" />
+    <Compile Include="Assets\Magic Light Probes\MLPPrefab.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoPowerUnit.cs" />
+    <Compile Include="Assets\VRTemplateAssets\Scripts\BooleanToggleVisualsController.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoLock.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSafeDoor.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSafeDial.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoPassthroughSocket.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSlidingDoor.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoGlassRotate.cs" />
+    <Compile Include="Assets\Magic Light Probes\Passes\CheckForLightLeakAreas.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHelper.cs" />
+    <Compile Include="Assets\VRTemplateAssets\Scripts\XRKnob.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoManualTeleport.cs" />
+    <Compile Include="Assets\VR Body\IKFootSolver.cs" />
+    <Compile Include="Assets\Magic Light Probes\Passes\StoreNearLights.cs" />
+    <Compile Include="Assets\VRTemplateAssets\Scripts\Callout.cs" />
+    <Compile Include="Assets\Magic Light Probes\Passes\CheckNearbyGeometry.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSafeDoor.cs" />
+    <Compile Include="Assets\Magic Light Probes\MLPVolume.cs" />
+    <Compile Include="Assets\VRTemplateAssets\Scripts\StepManager.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoUIManager.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoBackpack.cs" />
+    <Compile Include="Assets\VR Body\AnimateOnInput.cs" />
+    <Compile Include="Assets\Magic Light Probes\Passes\EquivalentProbesOptimization.cs" />
+    <Compile Include="Assets\VRTemplateAssets\Scripts\VideoTimeScrubControl.cs" />
+    <Compile Include="Assets\Magic Light Probes\Examples\Scripts\Rotator.cs" />
+    <Compile Include="Assets\Magic Light Probes\Passes\FindGeometryIntersections.cs" />
+    <Compile Include="Assets\Magic Light Probes\MLPCombinedMesh.cs" />
+    <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
+    <Compile Include="Assets\Magic Light Probes\Passes\CalculateLightIntensity.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSocketFilter.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scenes\HandSqueezeDemo\DemoPoseSqueeze.cs" />
+    <Compile Include="Assets\Magic Light Probes\Passes\CullByLightIntensity.cs" />
+    <Compile Include="Assets\VRTemplateAssets\Scripts\XRPokeFollowAffordanceFill.cs" />
+    <Compile Include="Assets\Magic Light Probes\Passes\FillVolume.cs" />
+    <Compile Include="Assets\Magic Light Probes\MLPPoint.cs" />
+    <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\GunAim.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoValveHologram.cs" />
+    <Compile Include="Assets\Magic Light Probes\Passes\FindAreasAtShadingBorders.cs" />
+    <Compile Include="Assets\VRTemplateAssets\Scripts\LaunchProjectile.cs" />
+    <Compile Include="Assets\Magic Light Probes\Passes\FindOutOfRangePoins.cs" />
+    <Compile Include="Assets\Magic Light Probes\Passes\SetDistanceFromGeometry.cs" />
+    <Compile Include="Assets\Magic Light Probes\MLPQuickEditing.cs" />
+    <Compile Include="Assets\VRTemplateAssets\Scripts\VideoPlayerRenderTexture.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHatchDoor.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoKeyHologram.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoLeverDisplay.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSlidingDoor.cs" />
+    <Compile Include="Assets\VRTemplateAssets\Scripts\BezierCurve.cs" />
+    <Compile Include="Assets\VRTemplateAssets\Scripts\CalloutGazeController.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoValveLock.cs" />
+    <Compile Include="Assets\Magic Light Probes\Passes\CullByHeight.cs" />
+    <Compile Include="Assets\Magic Light Probes\MLPForceSaveProbes.cs" />
+    <Compile Include="Assets\Magic Light Probes\Passes\PartialVolumeFilling.cs" />
+    <Compile Include="Assets\Magic Light Probes\Passes\CullingByEquivalentColor.cs" />
+    <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
+    <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHolsterOrientation.cs" />
+    <Compile Include="Assets\VRTemplateAssets\Scripts\RayAttachModifier.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSafeDial.cs" />
+    <Compile Include="Assets\Magic Light Probes\MLPForceNoProbes.cs" />
+    <Compile Include="Assets\Magic Light Probes\Passes\CheckVisibility.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoCodeGrabbing.cs" />
+    <Compile Include="Assets\UnityTechnologies\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Magic Light Probes\Passes\DublicateVertical.cs" />
+    <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHeavyDoor.cs" />
+    <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\GunShoot.cs" />
+    <Compile Include="Assets\Magic Light Probes\Examples\Scripts\PingPong.cs" />
+    <Compile Include="Assets\VRTemplateAssets\Scripts\DestroyObject.cs" />
+    <Compile Include="Assets\Magic Light Probes\Passes\CullGeometryCollisions.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoGlassRotate.cs" />
+    <Compile Include="Assets\Magic Light Probes\MLPTracePoint.cs" />
+    <Compile Include="Assets\Magic Light Probes\Passes\FindGeometryEdges.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoDummyArm.cs" />
+    <Compile Include="Assets\Magic Light Probes\Passes\RemoveUnusedPoints.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoPassthroughSocket.cs" />
+    <Compile Include="Assets\Magic Light Probes\MLPPointData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -917,6 +917,9 @@
     <Reference Include="Unity.XR.Interaction.Toolkit">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
@@ -937,6 +940,9 @@
     </Reference>
     <Reference Include="Unity.Burst">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
@@ -983,49 +989,43 @@
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{9A75DC04-4CC6-37C4-537E-65FE357F3AA6}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{9F1C5625-1C0C-EDED-F824-6A6983E07C71}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
-      <Project>{BF815EF5-9054-3D4C-6BFB-E8616F59F1E6}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="MLMExtensions.csproj">
-      <Project>{CAB7DA66-F452-B6A3-5123-8160A90BBEA7}</Project>
-      <Name>MLMExtensions</Name>
-    </ProjectReference>
     <ProjectReference Include="BakeryRuntimeAssembly.csproj">
       <Project>{93F287BB-4E0F-CBA7-198A-DFC3828C8B54}</Project>
       <Name>BakeryRuntimeAssembly</Name>
+    </ProjectReference>
+    <ProjectReference Include="HurricaneVR.Framework.csproj">
+      <Project>{820053FD-FD91-C5CF-4510-B128E6170B42}</Project>
+      <Name>HurricaneVR.Framework</Name>
     </ProjectReference>
     <ProjectReference Include="BakeryEditorAssembly.csproj">
       <Project>{8BBADD7B-548D-D4F5-43D8-E4F5908036DE}</Project>
       <Name>BakeryEditorAssembly</Name>
     </ProjectReference>
-    <ProjectReference Include="AmplifyShaderEditor.csproj">
-      <Project>{CBD6260D-ABD1-6808-A786-AD11F274BB5C}</Project>
-      <Name>AmplifyShaderEditor</Name>
+    <ProjectReference Include="MLMExtensions.csproj">
+      <Project>{CAB7DA66-F452-B6A3-5123-8160A90BBEA7}</Project>
+      <Name>MLMExtensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
+      <Project>{9F1C5625-1C0C-EDED-F824-6A6983E07C71}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
     <ProjectReference Include="HurricaneVR.Editor.csproj">
       <Project>{C60D8CE6-F50C-8825-5A7D-5199F7BBA5C0}</Project>
       <Name>HurricaneVR.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="HurricaneVR.Framework.csproj">
-      <Project>{820053FD-FD91-C5CF-4510-B128E6170B42}</Project>
-      <Name>HurricaneVR.Framework</Name>
+    <ProjectReference Include="AmplifyShaderEditor.csproj">
+      <Project>{CBD6260D-ABD1-6808-A786-AD11F274BB5C}</Project>
+      <Name>AmplifyShaderEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
+      <Project>{BF815EF5-9054-3D4C-6BFB-E8616F59F1E6}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
