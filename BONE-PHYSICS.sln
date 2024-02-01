@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{5C604B7D-B5B9-84F1-A123-B02BD013EC1F}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HurricaneVR.Framework", "HurricaneVR.Framework.csproj", "{820053FD-FD91-C5CF-4510-B128E6170B42}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{9A75DC04-4CC6-37C4-537E-65FE357F3AA6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{5C604B7D-B5B9-84F1-A123-B02BD013EC1F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BakeryRuntimeAssembly", "BakeryRuntimeAssembly.csproj", "{93F287BB-4E0F-CBA7-198A-DFC3828C8B54}"
 EndProject
@@ -31,6 +31,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C604B7D-B5B9-84F1-A123-B02BD013EC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C604B7D-B5B9-84F1-A123-B02BD013EC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C604B7D-B5B9-84F1-A123-B02BD013EC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C604B7D-B5B9-84F1-A123-B02BD013EC1F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{820053FD-FD91-C5CF-4510-B128E6170B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{820053FD-FD91-C5CF-4510-B128E6170B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{820053FD-FD91-C5CF-4510-B128E6170B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,10 +43,6 @@ Global
 		{9A75DC04-4CC6-37C4-537E-65FE357F3AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A75DC04-4CC6-37C4-537E-65FE357F3AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A75DC04-4CC6-37C4-537E-65FE357F3AA6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5C604B7D-B5B9-84F1-A123-B02BD013EC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5C604B7D-B5B9-84F1-A123-B02BD013EC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5C604B7D-B5B9-84F1-A123-B02BD013EC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5C604B7D-B5B9-84F1-A123-B02BD013EC1F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{93F287BB-4E0F-CBA7-198A-DFC3828C8B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{93F287BB-4E0F-CBA7-198A-DFC3828C8B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93F287BB-4E0F-CBA7-198A-DFC3828C8B54}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -56,7 +56,9 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaDemoRockWall.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoLockedDoor.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\Player\HVRHexaBodyHands.cs" />
     <Compile Include="Assets\Magic Light Probes\MLPSettings.cs" />
     <Compile Include="Assets\Magic Light Probes\MagicLightProbes.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\FindClosestPoints.cs" />
@@ -68,6 +70,7 @@
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoKeypad.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\AnchorVisuals.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\FindOutOfRangeAreas.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaDemoUIManager.cs" />
     <Compile Include="Assets\Magic Light Probes\MLPLight.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSocketables.cs" />
     <Compile Include="Assets\VR Body\IKTargetFollowVRRig.cs" />
@@ -93,10 +96,14 @@
     <Compile Include="Assets\Magic Light Probes\Passes\EquivalentProbesOptimization.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\VideoTimeScrubControl.cs" />
     <Compile Include="Assets\Magic Light Probes\Examples\Scripts\Rotator.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaTeleportDemo.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\FindGeometryIntersections.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\Hexa4DemoUIManager.cs" />
     <Compile Include="Assets\Magic Light Probes\MLPCombinedMesh.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\Player\HexaVRIKUpdater.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\CalculateLightIntensity.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaDemoElevator.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSocketFilter.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scenes\HandSqueezeDemo\DemoPoseSqueeze.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\CullByLightIntensity.cs" />
@@ -104,9 +111,11 @@
     <Compile Include="Assets\Magic Light Probes\Passes\FillVolume.cs" />
     <Compile Include="Assets\Magic Light Probes\MLPPoint.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\GunAim.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\Player\HVRHexaBodyInputWrapper.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoValveHologram.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\FindAreasAtShadingBorders.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\LaunchProjectile.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaDemoGravityCup.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\FindOutOfRangePoins.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\SetDistanceFromGeometry.cs" />
     <Compile Include="Assets\Magic Light Probes\MLPQuickEditing.cs" />
@@ -121,6 +130,7 @@
     <Compile Include="Assets\Magic Light Probes\Passes\CullByHeight.cs" />
     <Compile Include="Assets\Magic Light Probes\MLPForceSaveProbes.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\PartialVolumeFilling.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaDemoSlideManager.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\CullingByEquivalentColor.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
@@ -132,6 +142,7 @@
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoCodeGrabbing.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\DublicateVertical.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\Player\HVRHexaBodyInputs.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHeavyDoor.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\GunShoot.cs" />
@@ -145,59 +156,222 @@
     <Compile Include="Assets\Magic Light Probes\Passes\RemoveUnusedPoints.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoPassthroughSocket.cs" />
     <Compile Include="Assets\Magic Light Probes\MLPPointData.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaDemoSlideManager.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaDemoRockWall.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaDemoUIManager.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\Player\HexaVRIKUpdater.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\Player\HVRHexaBodyHands.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaDemoElevator.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\Hexa4DemoUIManager.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaTeleportDemo.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\Player\HVRHexaBodyInputs.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaDemoGravityCup.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\Player\HVRHexaBodyInputWrapper.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Shaders\VR_triplanar.shader" />
+    <None Include="Assets\Shaders\SLZLaser.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\Shaders\SLZAdditive Mask.shader" />
+    <None Include="Assets\Shaders\GibSkinMAS_Emissive.shader" />
+    <None Include="Assets\Shaders\ArrayMaps.shader" />
     <None Include="Assets\Magic Light Probes\Passes\Compute Shaders\CalculateProbeSpacing.compute" />
+    <None Include="Assets\Shaders\SmokePoofs.shader" />
+    <None Include="Assets\Shaders\SLZ-PlainColor.shader" />
+    <None Include="Assets\Shaders\vr_standard.shader" />
+    <None Include="Assets\Shaders\vr_matrix_palette_skinning.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Shaders\SLZFalloff.shader" />
+    <None Include="Assets\Shaders\Alphafade.shader" />
+    <None Include="Assets\Shaders\SLZAdditive Depth.shader" />
+    <None Include="Assets\Shaders\SLZGibSkinMAS Transparent.shader" />
     <None Include="Assets\VRTemplateAssets\Shaders\FauxBlurURP.shader" />
+    <None Include="Assets\Shaders\SLZVR_Terrain.shader" />
+    <None Include="Assets\Shaders\GibSkinMAS_transparent.shader" />
+    <None Include="Assets\Shaders\Highlighter.shader" />
     <None Include="Assets\HurricaneVR\Framework\SFX\license.txt" />
+    <None Include="Assets\Shaders\SLZFlowmap.shader" />
+    <None Include="Assets\Shaders\holographicwall_clock.shader" />
     <None Include="Assets\HurricaneVR\Third-Party Notices.txt" />
+    <None Include="Assets\Shaders\vr_Lightcone.shader" />
+    <None Include="Assets\Shaders\SLZCube Reflection.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Shaders\SLZCloud Cover Low.shader" />
+    <None Include="Assets\Shaders\SLZHolographic Wall Global.shader" />
+    <None Include="Assets\Shaders\SLZBaked Vertex Lighting.shader" />
+    <None Include="Assets\Shaders\SLZ_LitHologram.shader" />
+    <None Include="Assets\Shaders\holographicwall.shader" />
+    <None Include="Assets\Shaders\SLZWarning Grid.shader" />
     <None Include="Assets\Magic Light Probes\Docs\README.txt" />
+    <None Include="Assets\Shaders\Holographic_projection.shader" />
+    <None Include="Assets\Shaders\Glass.shader" />
+    <None Include="Assets\Shaders\SLZNothin.shader" />
+    <None Include="Assets\Shaders\SLZMod Gradient.shader" />
+    <None Include="Assets\Shaders\SLZGrid Glitch.shader" />
+    <None Include="Assets\Shaders\SLZGibSkinCrablet.shader" />
+    <None Include="Assets\Shaders\VR_arrayTex.shader" />
     <None Include="Assets\Magic Light Probes\Passes\Compute Shaders\CalculateDistanceFromGeometry.compute" />
+    <None Include="Assets\Shaders\SLZFill Color UV.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\Shaders\SLZVertex Tinting.shader" />
+    <None Include="Assets\Shaders\holographicwall_Glitchy.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\Shaders\SLZGibSkin.shader" />
+    <None Include="Assets\Shaders\SLZHighlighter.shader" />
+    <None Include="Assets\Shaders\Simple Fluorescent.shader" />
+    <None Include="Assets\Shaders\vr_utils.cginc" />
+    <None Include="Assets\Shaders\VoidBleed.shader" />
+    <None Include="Assets\Shaders\SLZ-Laser.shader" />
+    <None Include="Assets\Shaders\SLZ-GridGlitch.shader" />
     <None Include="Assets\Magic Light Probes\Passes\Compute Shaders\RecalculateVolumeFilling.compute" />
+    <None Include="Assets\Shaders\SLZTexture Array Mod2x Decals.shader" />
     <None Include="Assets\HurricaneVR\TechDemo\Shaders\Hologram Simple.shader" />
+    <None Include="Assets\Shaders\holographicwall_2Layer.shader" />
+    <None Include="Assets\Shaders\SLZGibSkinMAS.shader" />
+    <None Include="Assets\Shaders\vr_skybox.shader" />
+    <None Include="Assets\Shaders\SLZSwirlClouds.shader" />
+    <None Include="Assets\Shaders\SLZ-Bloody Decal.shader" />
+    <None Include="Assets\Shaders\vr_StandardInput.cginc" />
+    <None Include="Assets\Shaders\Nothin.shader" />
+    <None Include="Assets\Shaders\SLZ-AdditiveBillboard.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Shaders\SLZFlowmap Alpha.shader" />
+    <None Include="Assets\Shaders\BakedVertexLighting.shader" />
+    <None Include="Assets\Shaders\AdditiveDepthWrite.shader" />
+    <None Include="Assets\Shaders\Medieval blend_copy.shader" />
+    <None Include="Assets\Shaders\VR_Flowmap_AlphaTest.shader" />
+    <None Include="Assets\Shaders\SLZHolographic Wall - Clock.shader" />
+    <None Include="Assets\Shaders\SLZ_vignette.shader" />
+    <None Include="Assets\Shaders\SLZWhite Dimension.shader" />
     <None Include="Assets\Magic Light Probes\Shaders\MLPVolumeBounds 1.shader" />
+    <None Include="Assets\Shaders\SLZDecal Bump Mod2x.shader" />
+    <None Include="Assets\Shaders\SLZParticle Motion Vector.shader" />
+    <None Include="Assets\Shaders\AdditiveDistance.shader" />
+    <None Include="Assets\Shaders\HDRAdditive.shader" />
+    <None Include="Assets\Shaders\SLZAdditive Hologram with Depth.shader" />
+    <None Include="Assets\Shaders\SLZVoid.shader" />
+    <None Include="Assets\Shaders\VR_triplanar 2.shader" />
+    <None Include="Assets\Shaders\SLZPlanar alpha.shader" />
+    <None Include="Assets\Shaders\ZeroLabVR_Dissolve.shader" />
+    <None Include="Assets\Shaders\Voidpass.cginc" />
+    <None Include="Assets\Shaders\SLZHolographic Portal.shader" />
+    <None Include="Assets\Shaders\vr_photogrammetry.shader" />
+    <None Include="Assets\Shaders\SLZFlowmap Additive.shader" />
+    <None Include="Assets\Shaders\GibSkinMAS.shader" />
+    <None Include="Assets\Shaders\ModTexture.shader" />
+    <None Include="Assets\Shaders\SLZHolographic Wall Glitchy.shader" />
     <None Include="Assets\HurricaneVR\Documentation\ReleaseNotes.txt" />
     <None Include="Assets\HurricaneVR\Framework\Models\OculusCustomHands\license.txt" />
+    <None Include="Assets\Shaders\SLZHolographic Visor.shader" />
+    <None Include="Assets\Shaders\Mod2x.shader" />
+    <None Include="Assets\Shaders\Scanline.shader" />
+    <None Include="Assets\Shaders\SLZHolographic Wall.shader" />
+    <None Include="Assets\Shaders\SLZShadowOnly.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\VRTemplateAssets\Shaders\Grid.shader" />
+    <None Include="Assets\Shaders\ValveVRSilhouette.shader" />
+    <None Include="Assets\Shaders\Valvevr_standard.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\Shaders\Decal Bump Mod2x.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\Shaders\holographicwallGlobal.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\Magic Light Probes\Shaders\MLPVolumeBounds.shader" />
+    <None Include="Assets\Shaders\SLZCapsule.shader" />
+    <None Include="Assets\Shaders\SLZMultiply.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\Shaders\SLZAdditive HDR.shader" />
+    <None Include="Assets\Shaders\SLZModFalloff.shader" />
+    <None Include="Assets\Shaders\SLZGibSkinMAS_Emissive.shader" />
+    <None Include="Assets\Shaders\SLZStochastic Hologram.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Shaders\triplanar_alpha.shader" />
+    <None Include="Assets\Shaders\holographicKiller.shader" />
+    <None Include="Assets\Shaders\ModFalloff.shader" />
+    <None Include="Assets\Shaders\VRStandtest.shader" />
+    <None Include="Assets\Shaders\VR_Example.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Shaders\VR_triplanar 1.shader" />
+    <None Include="Assets\Shaders\vr_fog.cginc" />
+    <None Include="Assets\Shaders\SLZMultiplicative Decal.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Shaders\SLZMod2x.shader" />
+    <None Include="Assets\Shaders\ValveVRSilhouette_0.shader" />
+    <None Include="Assets\Shaders\AdditiveDepth.shader" />
+    <None Include="Assets\Shaders\SLZFill Color.shader" />
+    <None Include="Assets\Shaders\ZeroLabVR_Base_BoxCabin.shader" />
+    <None Include="Assets\Shaders\VRTemplate.shader" />
+    <None Include="Assets\Shaders\SLZ-PlainColor_UV.shader" />
+    <None Include="Assets\Shaders\ShadowOnly.shader" />
+    <None Include="Assets\Shaders\vrBase_groundDebris.shader" />
+    <None Include="Assets\Shaders\CubeReflection.shader" />
+    <None Include="Assets\Shaders\Capsule.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Shaders\SLZGlass.shader" />
+    <None Include="Assets\Shaders\SLZVideo DOF Dither.shader" />
+    <None Include="Assets\Shaders\SLZLinesColored Blended.shader" />
+    <None Include="Assets\Shaders\SwirlClouds.shader" />
     <None Include="Assets\HurricaneVR\Framework\Resources\HVRLatestReleaseNotes.txt" />
+    <None Include="Assets\Shaders\videodither.shader" />
+    <None Include="Assets\Shaders\VR_ColorMask.shader" />
+    <None Include="Assets\Shaders\VR_Terrain.shader" />
+    <None Include="Assets\Shaders\StochasticHologram.shader" />
+    <None Include="Assets\Shaders\VR_opaqueDistort.shader" />
+    <None Include="Assets\Shaders\SLZVignette.shader" />
+    <None Include="Assets\Shaders\SLZLit Hologram.shader" />
+    <None Include="Assets\Shaders\StochasticTransparency.shader" />
+    <None Include="Assets\Shaders\AdditiveMask.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Shaders\vr_lighting.cginc" />
+    <None Include="Assets\Shaders\TextureArrayAdditive.shader" />
+    <None Include="Assets\Shaders\SLZSimple Fluorescence.shader" />
+    <None Include="Assets\Shaders\GibSkinCrablet.shader" />
+    <None Include="Assets\Shaders\SLZVoidBleed.shader" />
+    <None Include="Assets\Shaders\BillboardIcon.shader" />
+    <None Include="Assets\Shaders\SLZVR_Triplanar.shader" />
+    <None Include="Assets\Shaders\VR_Distortion.shader" />
+    <None Include="Assets\Shaders\vr_PCSS.cginc" />
+    <None Include="Assets\Shaders\SLZTexture Arrays.shader" />
+    <None Include="Assets\Shaders\SLZAdditive Inverse Square.shader" />
+    <None Include="Assets\Shaders\SLZHolographic Projection.shader" />
+    <None Include="Assets\Shaders\VR_LocalTriplanarAlpha.shader" />
+    <None Include="Assets\Shaders\OpaqueTextureExample.shader" />
     <None Include="Assets\SkySeries Freebie\Hdri setup.txt" />
+    <None Include="Assets\Shaders\SLZIcon Billboard.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Shaders\SLZVR Texture Array Selector (Buffered).shader" />
+    <None Include="Assets\Shaders\SLZSmokePoof.shader" />
+    <None Include="Assets\Shaders\SLZGlowing Falloff.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\VRTemplateAssets\Shaders\TexturedFresnelStandard.shader" />
     <None Include="Assets\UnityTechnologies\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
+    <None Include="Assets\Shaders\theaterBorder.shader" />
+    <None Include="Assets\Shaders\VR_Dissolve.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\Shaders\Falloff.shader" />
     <None Include="Assets\VRTemplateAssets\Shaders\TexturedStableFresnelCommon.cginc" />
+    <None Include="Assets\Shaders\SLZScanline.shader" />
+    <None Include="Assets\Shaders\GlowingFalloff.shader" />
+    <None Include="Assets\Shaders\SLZVR ColorTint.shader" />
+    <None Include="Assets\Shaders\VRDefaultUnlit.shader" />
+    <None Include="Assets\Shaders\VR_Flowmap.shader" />
+    <None Include="Assets\Shaders\holographic_visor.shader" />
+    <None Include="Assets\Shaders\vr_zAO.cginc" />
+    <None Include="Assets\Shaders\VR_Flowmap_additive.shader" />
+    <None Include="Assets\Shaders\Mirror.shader" />
+    <None Include="Assets\Shaders\VR_particleMotionVector.shader" />
+    <None Include="Assets\Shaders\VertexTinting.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Shaders\ZoomLens.shader" />
+    <None Include="Assets\Shaders\GibSkinWire.shader" />
+    <None Include="Assets\Shaders\reflexScope.shader" />
+    <None Include="Assets\Shaders\HighlightAlt.shader" />
+    <None Include="Assets\Shaders\UnlitVertex Color Multiply.shader" />
+    <None Include="Assets\Shaders\VR_LocalTriplanar.shader" />
+    <None Include="Assets\Shaders\vr_standard_SLZ.shader" />
+    <None Include="Assets\Shaders\Mod2xTexarray.shader" />
+    <None Include="Assets\Shaders\overlay_shader.shader" />
+    <None Include="Assets\Shaders\holographicPortal.shader" />
+    <None Include="Assets\Shaders\SpaceTime_distortion.shader" />
     <None Include="Assets\VRTemplateAssets\Materials\Skybox\Horizontal Skybox.shader" />
+    <None Include="Assets\Shaders\SLZCloud cover.shader" />
+    <None Include="Assets\Shaders\SLZDustyBalls.shader" />
+    <None Include="Assets\Shaders\GibSkin.shader" />
+    <None Include="Assets\Shaders\UnlitSLZ-AdditiveBillboard.shader" />
+    <None Include="Assets\Shaders\WarningGrid.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Shaders\Base_BoxCabin.shader" />
+    <None Include="Assets\Shaders\SLZGibSkinWire.shader" />
+    <None Include="Assets\Shaders\Voidman.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -842,6 +1016,9 @@
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
@@ -890,6 +1067,9 @@
     <Reference Include="Unity.InternalAPIEditorBridge.007">
       <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.007.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
@@ -914,14 +1094,17 @@
     <Reference Include="Unity.XR.Interaction.Toolkit">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
       <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
@@ -952,6 +1135,9 @@
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
@@ -985,18 +1171,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

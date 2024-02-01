@@ -51,5 +51,15 @@ namespace AmplifyShaderEditor
 		{
 			AmplifyShaderEditorWindow.CreateConfirmationTemplateShader( "ed95fe726fd7b4644bb42f4d1ddd2bcd" );
 		}
+		[MenuItem( "Assets/Create/Amplify Shader/Templates/VRDefaultUnlit", false, 85 )]
+		public static void ApplyTemplateTemplatesVRDefaultUnlit()
+		{
+			AmplifyShaderEditorWindow.CreateConfirmationTemplateShader( "bef818483b1d82b40b63083507541a18" );
+		}
+		[MenuItem( "Assets/Create/Amplify Shader/ZeroLab/VR_Base", false, 85 )]
+		public static void ApplyTemplateZeroLabVR_Base()
+		{
+			AmplifyShaderEditorWindow.CreateConfirmationTemplateShader( "8ad358d84722b794882da84ba4785d92" );
+		}
 	}
 }
