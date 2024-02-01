@@ -157,6 +157,8 @@
     <Compile Include="Assets\Magic Light Probes\Passes\RemoveUnusedPoints.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoPassthroughSocket.cs" />
     <Compile Include="Assets\Magic Light Probes\MLPPointData.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\FinalIK\HVREditorIK.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\FinalIK\HVRVRIKTeleportHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\WorldMaterialsFree\Shaders\WorldMatHDRPFree.shader" />

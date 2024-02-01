@@ -1,0 +1,364 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 32578 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/BONE-PHYSICS
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50697
+Successfully changed project path to: D:/BONE-PHYSICS
+D:/BONE-PHYSICS
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 198.50 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 1.15 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/BONE-PHYSICS/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
+    Vendor:   NVIDIA
+    VRAM:     8042 MB
+    Driver:   31.0.15.5123
+Shader 'SLZ/VoidBleed': fallback shader 'False' not found
+Shader 'ZeroLab/VR_Dissolve': fallback shader '1' not found
+Shader 'SLZ/VR_Triplanar': fallback shader '1' not found
+Shader 'SLZ/ShadowOnly': fallback shader 'False' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009447 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 419.68 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.074 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1075ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (869ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (126ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (662ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (89ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (420ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (106ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.017299 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 154.42 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:257 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:242 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <1f0be198f5164d2489de92f22c998266>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.975 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1976ms)
+		BeginReloadAssembly (236ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (1623ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (345ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (135ms)
+			SetupLoadedEditorAssemblies (968ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (155ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (614ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'ZeroLab/VR_Dissolve': fallback shader '1' not found
+Shader 'SLZ/VoidBleed': fallback shader 'False' not found
+Shader 'SLZ/VR_Triplanar': fallback shader '1' not found
+Shader 'SLZ/ShadowOnly': fallback shader 'False' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.93 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 6903 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 199 unused Assets / (4.7 MB). Loaded Objects now: 7269.
+Memory consumption went from 332.8 MB to 328.1 MB.
+Total: 6.488400 ms (FindLiveObjects: 0.526100 ms CreateObjectMapping: 0.442300 ms MarkObjects: 3.955100 ms  DeleteObjects: 1.563500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 700.724330 seconds.
+  path: Assets/HurricaneVR/Framework/Integrations/HexaBodyVR/Player/HexaHandStrength.asset
+  artifactKey: Guid(3dd8e99db43625c46aeea6ce71be2eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/Framework/Integrations/HexaBodyVR/Player/HexaHandStrength.asset using Guid(3dd8e99db43625c46aeea6ce71be2eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0547830f6a7cf21c90d994c809cb1f2') in 0.062468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HurricaneVR/Framework/Integrations/HexaBodyVR/Player/Hexa4Rig.prefab
+  artifactKey: Guid(ae0dc9a988adf1848ac652930f105d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/Framework/Integrations/HexaBodyVR/Player/Hexa4Rig.prefab using Guid(ae0dc9a988adf1848ac652930f105d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4cd559a4ba906d972560629cc6f1ae') in 0.516229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/HurricaneVR/Framework/Integrations/HexaBodyVR/Player/Hexa4Rig_Backpack.prefab
+  artifactKey: Guid(0452cc9cdb4ab274dbf5cba3349ed278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/Framework/Integrations/HexaBodyVR/Player/Hexa4Rig_Backpack.prefab using Guid(0452cc9cdb4ab274dbf5cba3349ed278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f19140f60b62b7c065e77bdaf54359') in 0.264065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.399284 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/EffectExamples/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e53eb857bf00d963643f3b2d8940f0') in 0.004791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.301363 seconds.
+  path: Assets/HurricaneVR/TechDemo/Assets/Interactables/Bow/Bow.fbx
+  artifactKey: Guid(ca8b8cf9d06348643971539c73407933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Assets/Interactables/Bow/Bow.fbx using Guid(ca8b8cf9d06348643971539c73407933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6108a96e5a196a4cc83d31064151aba') in 0.166988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Walk Turn Sharp.fbx
+  artifactKey: Guid(de3b14b850aae314a89ad6280b2e3321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Walk Turn Sharp.fbx using Guid(de3b14b850aae314a89ad6280b2e3321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36857d9990a24c729f804ee7247aa24') in 0.012559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HurricaneVR/Framework/Models/OculusCustomHands/OculusTouchForQuestAndRiftS_Right.fbx
+  artifactKey: Guid(51dbd3363bec05646a4f277d6d770a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/Framework/Models/OculusCustomHands/OculusTouchForQuestAndRiftS_Right.fbx using Guid(51dbd3363bec05646a4f277d6d770a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb53989e569a5e826ecd66bfb0bed6d3') in 0.087736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugins/HexabodyVR/PlayerController/OculusController/OculusTouchForQuestAndRiftS_Right.fbx
+  artifactKey: Guid(3bcad3779a534a4428c7be569394700a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/HexabodyVR/PlayerController/OculusController/OculusTouchForQuestAndRiftS_Right.fbx using Guid(3bcad3779a534a4428c7be569394700a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f95dbc4165742ba6d6d56b2d2adbdb4') in 0.023294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Mech Bot Idle.FBX
+  artifactKey: Guid(a051f9ee8d34e4038b0539c5ab5f6e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Mech Bot Idle.FBX using Guid(a051f9ee8d34e4038b0539c5ab5f6e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1929ef6edd4bd9e8c2b3e0398c017e') in 0.159997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Magic Light Probes/Examples/Models/House.FBX
+  artifactKey: Guid(1c4afe8acf2695a48bf2f3538982c642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magic Light Probes/Examples/Models/House.FBX using Guid(1c4afe8acf2695a48bf2f3538982c642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ece1a2bde5b18d19a2ebb37c9c047e') in 1.450931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy/CowboyAnimationTarget.FBX
+  artifactKey: Guid(a269b909502ca4e6b8a2c30ae159e60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Characters/Cowboy/CowboyAnimationTarget.FBX using Guid(a269b909502ca4e6b8a2c30ae159e60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8df7a7cf5d5d654458a9adefff5ae68') in 0.012440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Mine Bot Walk Forward.FBX
+  artifactKey: Guid(e8b07d5cd888746fd8a00b1cc40c5cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Mine Bot Walk Forward.FBX using Guid(e8b07d5cd888746fd8a00b1cc40c5cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee2e0419c3e981c82f3c6d6516ef838') in 0.089249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Bakery/examples/content/logolight.FBX
+  artifactKey: Guid(013609175f104c14ab6ef83d462fca4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bakery/examples/content/logolight.FBX using Guid(013609175f104c14ab6ef83d462fca4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829bc3a4c69d3af9ee3f60c868cb5b62') in 0.022572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/VR Body/Models/Ch32_nonPBR.fbx
+  artifactKey: Guid(c25e49e3c511fe2498b5f09a15b598ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Body/Models/Ch32_nonPBR.fbx using Guid(c25e49e3c511fe2498b5f09a15b598ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0396850bb223841571f5614566befc0') in 0.146874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Mech Bot Walk Forward.FBX
+  artifactKey: Guid(d64509b2dde084cefa0b990dab96e526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Angry Bots Generic/Mech Bot Walk Forward.FBX using Guid(d64509b2dde084cefa0b990dab96e526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae82131549a0b32bb00acef63e233d3') in 0.086764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Run.fbx
+  artifactKey: Guid(5793c842832b08348afd121473dfdf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Run.fbx using Guid(5793c842832b08348afd121473dfdf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfa6a149a92d3219ad8736c3cdcd8cf') in 0.011779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Idles.fbx
+  artifactKey: Guid(d556ab52e17604958b19876c5f242758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Idles.fbx using Guid(d556ab52e17604958b19876c5f242758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33481de930430bf7e3e571d450766942') in 0.374167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Wolf Generic/Wolf.fbx
+  artifactKey: Guid(8e43c4e8a9a474ba1b70448f3bd7d8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Wolf Generic/Wolf.fbx using Guid(8e43c4e8a9a474ba1b70448f3bd7d8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4691d5b38f2ba0fdccc9723726006b') in 0.034155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/HexabodyVR/PlayerController/OculusController/OculusTouchForQuestAndRiftS_Left.fbx
+  artifactKey: Guid(6b79c96c7e99c9d4d80941597b7be202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/HexabodyVR/PlayerController/OculusController/OculusTouchForQuestAndRiftS_Left.fbx using Guid(6b79c96c7e99c9d4d80941597b7be202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15555665a93e59cf6d2f2f81a5f35cd') in 0.021226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/RootMotion/Shared Demo Assets/Props/MP-40/MP-40.FBX
+  artifactKey: Guid(7a30e2e74b2c24169a1b8eb71cf56878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/Shared Demo Assets/Props/MP-40/MP-40.FBX using Guid(7a30e2e74b2c24169a1b8eb71cf56878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07de21f4ae6bbb4f5682117daa14264c') in 0.026922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Animations/Embryotic.FBX
+  artifactKey: Guid(f250908a3163640558aa941138ce3557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Animations/Embryotic.FBX using Guid(f250908a3163640558aa941138ce3557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4963ac1aad5112c769554f0fcfa68940') in 0.014453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/Shared/Models/LowMan.fbx
+  artifactKey: Guid(7e15121f5f042ed46aba81406403f2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/EffectExamples/Shared/Models/LowMan.fbx using Guid(7e15121f5f042ed46aba81406403f2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5576172f7c632118e55f9579f475daa0') in 0.036158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HurricaneVR/Framework/Models/OculusCustomHands/OculusTouchForQuestAndRiftS_Left.fbx
+  artifactKey: Guid(a1bbc4fd493feaf47ae27467edc71f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/Framework/Models/OculusCustomHands/OculusTouchForQuestAndRiftS_Left.fbx using Guid(a1bbc4fd493feaf47ae27467edc71f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff655b938fc92f542d36e2e7c50c492c') in 0.029761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Viking Humanoid.FBX
+  artifactKey: Guid(77175d72106534d05bbaa1a44d43c57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Viking/Viking Humanoid.FBX using Guid(77175d72106534d05bbaa1a44d43c57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6ec78979a1be8262fb1a2e6f2eb811') in 0.053499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Run Turn.fbx
+  artifactKey: Guid(f2058580a3b66b041bc906b2a8d0accd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Run Turn.fbx using Guid(f2058580a3b66b041bc906b2a8d0accd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264ea1bcb4d551961dcb033f2e33f855') in 0.013187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Mid Air 3.fbx
+  artifactKey: Guid(25275a2ff07f278408cfa0a8ff8ebce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Mid Air 3.fbx using Guid(25275a2ff07f278408cfa0a8ff8ebce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847e6f95c54763997a46117918e3b535') in 0.070811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Animations/Wave Hands.fbx
+  artifactKey: Guid(193d19fc4d806984ca88a41ad97c0277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/PuppetMaster/_DEMOS/Assets/Humanoid Animations/Wave Hands.fbx using Guid(193d19fc4d806984ca88a41ad97c0277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c15b27e3ec80e17186dfa8e780542d') in 0.012188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Dummy.FBX
+  artifactKey: Guid(959d14bf134f54a6e993fe6ca6e063c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/Shared Demo Assets/Characters/Dummy/Dummy.FBX using Guid(959d14bf134f54a6e993fe6ca6e063c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e560fdbaaccf48344eb386e8eace6997') in 0.030967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Mid Air.fbx
+  artifactKey: Guid(5549c8281f3923d4bbaa299fc075558c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Mid Air.fbx using Guid(5549c8281f3923d4bbaa299fc075558c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44f3e6010293d1743f929676cd56922') in 0.676239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Run Turn Sharp.fbx
+  artifactKey: Guid(4597f75592fba204890fd32d8c11a1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/RootMotion/Shared Demo Assets/Humanoid Animations/Run Turn Sharp.fbx using Guid(4597f75592fba204890fd32d8c11a1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b474a6cc28d9096d511189f333b647') in 0.012904 seconds 

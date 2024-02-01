@@ -72,6 +72,7 @@
     <Compile Include="Assets\Magic Light Probes\Editor\MLPCombinedVolumeEditor.cs" />
     <Compile Include="Assets\Magic Light Probes\Editor\GeneralMethods.cs" />
     <Compile Include="Assets\Magic Light Probes\Editor\MLSForceNoProbesEditor.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\FinalIK\Editor\HVRVRIKCreatorEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Editor\x64\Bakery\frender.dll" />

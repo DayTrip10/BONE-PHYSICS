@@ -13,8 +13,6 @@ namespace RootMotion {
         /// </summary>
         public static float GetYaw(Vector3 forward)
         {
-            if (forward.x == 0f && forward.z == 0f) return 0f;
-            if (float.IsInfinity(forward.x) || float.IsInfinity(forward.z)) return 0;
             return Mathf.Atan2(forward.x, forward.z) * Mathf.Rad2Deg;
         }
 
@@ -34,8 +32,7 @@ namespace RootMotion {
         {
             Quaternion q = Quaternion.Inverse(Quaternion.LookRotation(Vector3.up, forward));
             up = q * up;
-            float result = Mathf.Atan2(up.x, up.z) * Mathf.Rad2Deg;
-            return Mathf.Clamp(result, -180f, 180f);
+            return Mathf.Atan2(up.x, up.z) * Mathf.Rad2Deg;
         }
 
         /// <summary>
@@ -45,8 +42,6 @@ namespace RootMotion {
         {
             Quaternion space = Quaternion.Inverse(Quaternion.LookRotation(spaceForward, spaceUp));
             Vector3 dirLocal = space * forward;
-            if (dirLocal.x == 0f && dirLocal.z == 0f) return 0f;
-            if (float.IsInfinity(dirLocal.x) || float.IsInfinity(dirLocal.z)) return 0;
             return Mathf.Atan2(dirLocal.x, dirLocal.z) * Mathf.Rad2Deg;
         }
 
@@ -57,7 +52,6 @@ namespace RootMotion {
         {
             Quaternion space = Quaternion.Inverse(Quaternion.LookRotation(spaceForward, spaceUp));
             Vector3 dirLocal = space * forward;
-            forward.Normalize();
             return -Mathf.Asin(dirLocal.y) * Mathf.Rad2Deg;
         }
 
@@ -72,8 +66,7 @@ namespace RootMotion {
 
             Quaternion q = Quaternion.Inverse(Quaternion.LookRotation(spaceUp, forward));
             up = q * up;
-            float result = Mathf.Atan2(up.x, up.z) * Mathf.Rad2Deg;
-            return Mathf.Clamp(result, -180f, 180f);
+            return Mathf.Atan2(up.x, up.z) * Mathf.Rad2Deg;
         }
 
         /// <summary>
