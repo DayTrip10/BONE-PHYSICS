@@ -145,6 +145,17 @@
     <Compile Include="Assets\Magic Light Probes\Passes\RemoveUnusedPoints.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoPassthroughSocket.cs" />
     <Compile Include="Assets\Magic Light Probes\MLPPointData.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaDemoSlideManager.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaDemoRockWall.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaDemoUIManager.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\Player\HexaVRIKUpdater.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\Player\HVRHexaBodyHands.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaDemoElevator.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\Hexa4DemoUIManager.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaTeleportDemo.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\Player\HVRHexaBodyInputs.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaDemoGravityCup.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\Player\HVRHexaBodyInputWrapper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -152,27 +163,20 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\VRTemplateAssets\Shaders\FauxBlurURP.shader" />
     <None Include="Assets\HurricaneVR\Framework\SFX\license.txt" />
-    <None Include="Assets\BW Shaders\SLZ_LitHologram.shader" />
     <None Include="Assets\HurricaneVR\Third-Party Notices.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Magic Light Probes\Docs\README.txt" />
-    <None Include="Assets\BW Shaders\VR_ColorMask.shader" />
     <None Include="Assets\Magic Light Probes\Passes\Compute Shaders\CalculateDistanceFromGeometry.compute" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\BW Shaders\holographicwall_Glitchy.shader" />
     <None Include="Assets\Magic Light Probes\Passes\Compute Shaders\RecalculateVolumeFilling.compute" />
     <None Include="Assets\HurricaneVR\TechDemo\Shaders\Hologram Simple.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\BW Shaders\holographicKiller.shader" />
     <None Include="Assets\Magic Light Probes\Shaders\MLPVolumeBounds 1.shader" />
-    <None Include="Assets\BW Shaders\holographicwall_1.shader" />
-    <None Include="Assets\BW Shaders\holographicwall_clock.shader" />
     <None Include="Assets\HurricaneVR\Documentation\ReleaseNotes.txt" />
     <None Include="Assets\HurricaneVR\Framework\Models\OculusCustomHands\license.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\VRTemplateAssets\Shaders\Grid.shader" />
-    <None Include="Assets\BW Shaders\VR_triplanar.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
@@ -180,12 +184,10 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\BW Shaders\VR_Flowmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\HurricaneVR\Framework\Resources\HVRLatestReleaseNotes.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\BW Shaders\HDRAdditiveRecreation.shader" />
     <None Include="Assets\SkySeries Freebie\Hdri setup.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
@@ -193,14 +195,9 @@
     <None Include="Assets\UnityTechnologies\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\VRTemplateAssets\Shaders\TexturedStableFresnelCommon.cginc" />
-    <None Include="Assets\BW Shaders\VR_arrayTex.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\BW Shaders\WarningGrid.shader" />
     <None Include="Assets\VRTemplateAssets\Materials\Skybox\Horizontal Skybox.shader" />
-    <None Include="Assets\BW Shaders\ArrayMaps.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
-    <None Include="Assets\BW Shaders\holographic_visor_1.shader" />
-    <None Include="Assets\BW Shaders\VR_Flowmap_AlphaTest.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -988,6 +985,18 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
