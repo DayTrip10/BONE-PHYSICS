@@ -15,7 +15,7 @@ D:/BONE-PHYSICS
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-60969
+63066
 Successfully changed project path to: D:/BONE-PHYSICS
 D:/BONE-PHYSICS
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ D:/BONE-PHYSICS
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 194.00 ms, found 28 plugins.
-Preloading 1 native plugins for Editor in 1.02 ms.
+Refreshing native plugins compatible for Editor in 249.88 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 1.11 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/BONE-PHYSICS/Assets
@@ -67,51 +67,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007275 seconds.
+Registered in 0.007138 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 135.30 ms, found 28 plugins.
+Refreshing native plugins compatible for Editor in 149.35 ms, found 28 plugins.
 Preloading 1 native plugins for Editor in 0.13 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.649 seconds
+- Completed reload, in  0.667 seconds
 Domain Reload Profiling:
-	ReloadAssembly (649ms)
-		BeginReloadAssembly (83ms)
+	ReloadAssembly (668ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (467ms)
-			LoadAssemblies (82ms)
+		EndReloadAssembly (484ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (98ms)
+			SetupTypeCache (89ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (300ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (327ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (47ms)
+				InitializePlatformSupportModulesInManaged (51ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (136ms)
+				RefreshPlugins (150ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (80ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012508 seconds.
+Registered in 0.014489 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 130.54 ms, found 28 plugins.
+Refreshing native plugins compatible for Editor in 141.30 ms, found 28 plugins.
 Preloading 1 native plugins for Editor in 0.04 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
@@ -130,47 +130,47 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.600 seconds
+- Completed reload, in  1.728 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1600ms)
-		BeginReloadAssembly (209ms)
+	ReloadAssembly (1729ms)
+		BeginReloadAssembly (202ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (126ms)
-		EndReloadAssembly (1298ms)
-			LoadAssemblies (102ms)
+			CreateAndSetChildDomain (118ms)
+		EndReloadAssembly (1424ms)
+			LoadAssemblies (99ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (280ms)
+			SetupTypeCache (284ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (88ms)
-			SetupLoadedEditorAssemblies (790ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (912ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (131ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (501ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				RefreshPlugins (141ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (594ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+Shader 'SLZ/VoidBleed': fallback shader 'False' not found
 Shader 'ZeroLab/VR_Dissolve': fallback shader '1' not found
 Shader 'SLZ/VR_Triplanar': fallback shader '1' not found
-Shader 'SLZ/VoidBleed': fallback shader 'False' not found
 Shader 'SLZ/ShadowOnly': fallback shader 'False' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Refreshing native plugins compatible for Editor in 1.16 ms, found 28 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
+Preloading 1 native plugins for Editor in 0.05 ms.
 Unloading 7227 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 200 unused Assets / (4.7 MB). Loaded Objects now: 7636.
-Memory consumption went from 354.6 MB to 349.9 MB.
-Total: 4.523800 ms (FindLiveObjects: 0.372800 ms CreateObjectMapping: 0.258700 ms MarkObjects: 2.867300 ms  DeleteObjects: 1.024000 ms)
+Unloading 200 unused Assets / (4.7 MB). Loaded Objects now: 7637.
+Memory consumption went from 354.8 MB to 350.1 MB.
+Total: 4.720200 ms (FindLiveObjects: 0.419600 ms CreateObjectMapping: 0.316500 ms MarkObjects: 2.962500 ms  DeleteObjects: 1.020400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -184,93 +184,200 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 37635.823426 seconds.
-  path: Assets/WorldMaterialsFree/Resource Files/ClumpMud/ClumpMud_Grass_Ao.png
-  artifactKey: Guid(6001aa115ad4e72428b131a9024547b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WorldMaterialsFree/Resource Files/ClumpMud/ClumpMud_Grass_Ao.png using Guid(6001aa115ad4e72428b131a9024547b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f646be776e97abf926a3ef1ca0f7f889') in 0.107102 seconds 
+  Time since last request: 41226.129005 seconds.
+  path: Assets/HurricaneVR/TechDemo/Textures/back_pack_metallic_smoothness.png
+  artifactKey: Guid(605dcfafc582b754d8618353ce064df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Textures/back_pack_metallic_smoothness.png using Guid(605dcfafc582b754d8618353ce064df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7dd3a40accde0976e676e686183b407') in 0.126746 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/HurricaneVR/TechDemo/Assets/Environment/DemoScene/museum_small.fbx
-  artifactKey: Guid(a1f75526e0f0cab4ead823952694f180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HurricaneVR/TechDemo/Assets/Environment/DemoScene/museum_small.fbx using Guid(a1f75526e0f0cab4ead823952694f180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897d2b41dc10ab23134610cac6c6c5ca') in 0.107499 seconds 
+  Time since last request: 0.000031 seconds.
+  path: Assets/HurricaneVR/TechDemo/Textures/props_albedo.jpg
+  artifactKey: Guid(5246a2b0eb79c0a4696b2f1fe6628188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Textures/props_albedo.jpg using Guid(5246a2b0eb79c0a4696b2f1fe6628188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0802f04e277626d828421aeeaca63f') in 0.016942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HurricaneVR/TechDemo/Textures/Shotgun_Normal.png
+  artifactKey: Guid(acc42cdcd798579408883862e70ac063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Textures/Shotgun_Normal.png using Guid(acc42cdcd798579408883862e70ac063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ea0a4223c71ac05cd047cb9a735a3c') in 0.040454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/HurricaneVR/TechDemo/Textures/pistol_Metallic.png
+  artifactKey: Guid(7f59f2dfdd918514fa8f0c5e93e7ba2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Textures/pistol_Metallic.png using Guid(7f59f2dfdd918514fa8f0c5e93e7ba2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7949d8d22e3f97c845f183ae4e05a27c') in 0.014795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HurricaneVR/TechDemo/Textures/rope.png
+  artifactKey: Guid(c962bc18e0037f64ea3966f071076fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Textures/rope.png using Guid(c962bc18e0037f64ea3966f071076fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7107a84911d2ad76dabebbf384af0415') in 0.010847 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/WorldMaterialsFree/Resource Files/ClumpMud/ClumpMud_YFliped_Normal.png
-  artifactKey: Guid(a4a37f7a6ffedc448ad87a9046c1534f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WorldMaterialsFree/Resource Files/ClumpMud/ClumpMud_YFliped_Normal.png using Guid(a4a37f7a6ffedc448ad87a9046c1534f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edccca0f42275856df09cce8eb45185d') in 0.020147 seconds 
+  path: Assets/HurricaneVR/TechDemo/Textures/interior_albedo.jpg
+  artifactKey: Guid(d5e30e6549206ba47a3c8fb7ea1dec97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Textures/interior_albedo.jpg using Guid(d5e30e6549206ba47a3c8fb7ea1dec97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a169393448fa5949010d448010717d9') in 0.013924 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/WorldMaterialsFree/HDRPMaterials/ClumpMud_HDRPShader.mat
-  artifactKey: Guid(503e66f9762e80e4d8d98b15f7e632f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WorldMaterialsFree/HDRPMaterials/ClumpMud_HDRPShader.mat using Guid(503e66f9762e80e4d8d98b15f7e632f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
-
-Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
-Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
-Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
-
-Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
-Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
-Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
-
-Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
-Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
-Shader error in 'WorldMatHDRPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 1550
-
-Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
-Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
- -> (artifact id: '572a8faee0f3e7c9b6f807f0e9f25251') in 0.061203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/WorldMaterialsFree/Built-In_RPMaterials/ClumpMud_WMShader.mat
-  artifactKey: Guid(66779585bb974764988f107bd278f7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WorldMaterialsFree/Built-In_RPMaterials/ClumpMud_WMShader.mat using Guid(66779585bb974764988f107bd278f7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610c36fec73e035274d891157d6ed4fb') in 0.188220 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/HurricaneVR/TechDemo/Textures/Safe.jpg
+  artifactKey: Guid(844d9a3571ddce44cbb1b1da1b1586f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Textures/Safe.jpg using Guid(844d9a3571ddce44cbb1b1da1b1586f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb62b750abfac8116ce5e6f8321d920') in 0.012906 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset
-  artifactKey: Guid(ecaaf479f05451c4e8e9bde3dfb67e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset using Guid(ecaaf479f05451c4e8e9bde3dfb67e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2975ef6de0bdfa06905ebf91e7e2eb') in 0.023163 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/WorldMaterialsFree/URPMaterials/ClumpMud_URPShader.mat
-  artifactKey: Guid(d5a56745181950043825e2680343568c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WorldMaterialsFree/URPMaterials/ClumpMud_URPShader.mat using Guid(d5a56745181950043825e2680343568c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'WorldMatURPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl'. at line 689
-
-Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
-Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LOD_FADE_CROSSFADE SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
-Shader error in 'WorldMatURPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl'. at line 689
-
-Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
-Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LOD_FADE_CROSSFADE SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
-Shader error in 'WorldMatURPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl'. at line 689
-
-Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
-Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LOD_FADE_CROSSFADE SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
-Shader error in 'WorldMatURPFree': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl'. at line 689
-
-Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
-Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LOD_FADE_CROSSFADE SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
- -> (artifact id: '3d32282dd24403b69869ecbe6417dac9') in 0.038169 seconds 
+  path: Assets/HurricaneVR/TechDemo/Textures/SafeMetallicSmoothness.png
+  artifactKey: Guid(02635da93a4e1334a974f173759fb6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Textures/SafeMetallicSmoothness.png using Guid(02635da93a4e1334a974f173759fb6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867d8eb33cef9f5dd772b3fe96c02156') in 0.015768 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/WorldMaterialsFree/Resource Files/ClumpMud/ClumpMud_Height.png
-  artifactKey: Guid(1ec47b3300477f040b5d59f8fc7497dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WorldMaterialsFree/Resource Files/ClumpMud/ClumpMud_Height.png using Guid(1ec47b3300477f040b5d59f8fc7497dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5764ebd5f4d48acb32019d5ce7ca05c7') in 0.013722 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  path: Assets/HurricaneVR/TechDemo/Textures/HandsNormal.jpg
+  artifactKey: Guid(b375bc5fe11741e4f8ded4a9f87b96c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Textures/HandsNormal.jpg using Guid(b375bc5fe11741e4f8ded4a9f87b96c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e248dc1dd20dab12e67ddbe4e14ecf4b') in 0.032797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HurricaneVR/TechDemo/Textures/OrangePanel.png
+  artifactKey: Guid(98da82e5318092d4bad52458341f72f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Textures/OrangePanel.png using Guid(98da82e5318092d4bad52458341f72f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eade10be6bc0e5be49b5c5c8c1766357') in 0.013498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/HurricaneVR/TechDemo/Textures/panel_metallic_smoothness.png
+  artifactKey: Guid(a81e099f8807cca44aa06fcfe9a21bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Textures/panel_metallic_smoothness.png using Guid(a81e099f8807cca44aa06fcfe9a21bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae688b713b83715ce9dbf967a611f56e') in 0.014875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HurricaneVR/TechDemo/Textures/environment_albedo.jpg
+  artifactKey: Guid(11ac14a8ccf0e254b94c21d42cb4f3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Textures/environment_albedo.jpg using Guid(11ac14a8ccf0e254b94c21d42cb4f3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800f93a67271818a8c21e2ed41d9b4d8') in 0.015215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/HurricaneVR/TechDemo/Textures/environment_normal.jpg
+  artifactKey: Guid(98b3faa875593bb408f1b388653a61b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Textures/environment_normal.jpg using Guid(98b3faa875593bb408f1b388653a61b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926aa3d19d06dbe2a031f33c6aef1772') in 0.016820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/HurricaneVR/TechDemo/Textures/pistol__Normal.png
+  artifactKey: Guid(9e390dd250815ff4a91b5b15283e0478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Textures/pistol__Normal.png using Guid(9e390dd250815ff4a91b5b15283e0478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a3aa1fcbf453a2488c33edd8c4c18e') in 0.018493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/HurricaneVR/TechDemo/Textures/rope_normal.bmp
+  artifactKey: Guid(063118f0c5b1de34ebc66306aa1afda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Textures/rope_normal.bmp using Guid(063118f0c5b1de34ebc66306aa1afda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee8874939556918e7ff6350e9bf727a') in 0.016206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HurricaneVR/TechDemo/Textures/ChestLP_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(7603981570893c54f8fee28aab0b3713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Textures/ChestLP_DefaultMaterial_AlbedoTransparency.png using Guid(7603981570893c54f8fee28aab0b3713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb37fb02f4b7e050e3f1fcedf3642de') in 0.013487 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011001 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:257 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:242 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <1f0be198f5164d2489de92f22c998266>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.370 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1371ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1151ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (628ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (480ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Shader 'SLZ/VoidBleed': fallback shader 'False' not found
+Shader 'ZeroLab/VR_Dissolve': fallback shader '1' not found
+Shader 'SLZ/VR_Triplanar': fallback shader '1' not found
+Shader 'SLZ/ShadowOnly': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 6.17 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 6777 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 180 unused Assets / (4.7 MB). Loaded Objects now: 7647.
+Memory consumption went from 315.7 MB to 311.1 MB.
+Total: 4.222100 ms (FindLiveObjects: 0.322800 ms CreateObjectMapping: 0.211000 ms MarkObjects: 2.721900 ms  DeleteObjects: 0.965600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 673.601296 seconds.
+  path: Assets/Screen.png
+  artifactKey: Guid(71e7b788513d3844d870e61d663fed79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen.png using Guid(71e7b788513d3844d870e61d663fed79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2cbc93f108dbfabae62ac1ddc7bbe8') in 0.075190 seconds 
+========================================================================
+Received Prepare
+Shader 'SLZ/VoidBleed': fallback shader 'False' not found
+Shader 'ZeroLab/VR_Dissolve': fallback shader '1' not found
+Shader 'SLZ/VR_Triplanar': fallback shader '1' not found
+Shader 'SLZ/ShadowOnly': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 20.37 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 180 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 180 unused Assets / (4.7 MB). Loaded Objects now: 7647.
+Memory consumption went from 183.8 MB to 179.1 MB.
+Total: 6.383700 ms (FindLiveObjects: 0.349000 ms CreateObjectMapping: 0.246400 ms MarkObjects: 4.651300 ms  DeleteObjects: 1.135700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

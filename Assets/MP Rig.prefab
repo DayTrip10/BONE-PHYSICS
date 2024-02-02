@@ -9475,8 +9475,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a74fdecb901826a43a0620f92cb04f6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  JumpDamper: 3000
-  JumpCrouchAmount: 0.25
+  JumpDamper: 2000
+  JumpCrouchAmount: 0.21
   JumpHeightCurve:
     serializedVersion: 2
     m_Curve:
@@ -9621,8 +9621,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   AirAcceleration: 1.2
-  WalkSpeed: 2
-  RunSpeed: 4
+  WalkSpeed: 3
+  RunSpeed: 5
   SmoothTime: 0.2
   MaxAcceleration: 9
   CrouchSpeedCurve:
@@ -9780,7 +9780,7 @@ MonoBehaviour:
   EyeHeight: 1.66
   PlayerWaistHeight: 1
   BumperOffset: 0.07
-  SitStanding: 0
+  SitStanding: 1
   TipToesOffset: 0.2
   CameraCeilingOffset: 0.15
   PelvisMaxOffset: 0.15
@@ -9933,7 +9933,7 @@ MonoBehaviour:
   CrouchXThreshold: 0.3
   CrouchYThreshold: 0.15
   EnableDebugCalibrationButton: 0
-  KeyboardDebug: 1
+  KeyboardDebug: 0
   KeyboardCrouchRate: 1
   CrouchingKey: 38
   StandingKey: 40
@@ -9951,6 +9951,7 @@ GameObject:
   - component: {fileID: 3722028217328712926}
   - component: {fileID: 3722028217328712925}
   - component: {fileID: 4886454448329129025}
+  - component: {fileID: 901230587041397043}
   m_Layer: 0
   m_Name: MP Rig
   m_TagString: Untagged
@@ -9992,7 +9993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanDistanceGrab: 1
   CanTriggerGrab: 0
-  ForceGrabActivation: 0
+  ForceGrabActivation: 1
   TriggerGrabThreshold: 0.7
   MovementAxis: {x: 0, y: 0}
   TurnAxis: {x: 0, y: 0}
@@ -10066,6 +10067,39 @@ MonoBehaviour:
   OnUnpossessed:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &901230587041397043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3722028217328712924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1312809854, guid: 0ae8d181602a00248a82f64a684a1c88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Multiplayer: {fileID: 0}
+  _uidString: 88c763f1-a1ec-4f0b-8f07-2148ec703987
+  BucketBehaviors:
+  - Name: Min
+    NetLOD: 0
+    Frequency: -1
+  - Name: Low
+    NetLOD: 1
+    Frequency: 0
+  - Name: Mid
+    NetLOD: 2
+    Frequency: 0
+  - Name: High
+    NetLOD: 3
+    Frequency: 0
+  - Name: Max
+    NetLOD: 4
+    Frequency: 120
+  UseGlobalPosition: 0
+  refreshRate: 120
+  SyncedAxes: 511
 --- !u!1 &3722028217350053816
 GameObject:
   m_ObjectHideFlags: 0
