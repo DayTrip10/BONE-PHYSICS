@@ -27,6 +27,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7365062987187564514}
   m_RootOrder: 0
@@ -154,6 +155,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.48422936, y: 0.9905781, z: -0.8277346}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7365062986212612703}
   m_Father: {fileID: 0}
@@ -173,3 +175,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SFXReferenceSource: {fileID: 7365062986212612700}
   SFXSourceCount: 100
+  SetClipName: 0

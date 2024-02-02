@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5465566014722352017
+--- !u!1 &4379128334501876986
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5465566014722352019}
-  - component: {fileID: 5465566014722352018}
+  - component: {fileID: 4379128334501876984}
+  - component: {fileID: 4379128334501876985}
   m_Layer: 0
   m_Name: Networkmanager
   m_TagString: Untagged
@@ -17,13 +17,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5465566014722352019
+--- !u!4 &4379128334501876984
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5465566014722352017}
+  m_GameObject: {fileID: 4379128334501876986}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -32,13 +32,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5465566014722352018
+--- !u!114 &4379128334501876985
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5465566014722352017}
+  m_GameObject: {fileID: 4379128334501876986}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1777794829, guid: 0ae8d181602a00248a82f64a684a1c88, type: 3}
@@ -62,8 +62,8 @@ MonoBehaviour:
     NetLOD: 4
     Users: 
   _maxPlayers: 10
-  AvatarSpawning: 1
-  AvatarPrefab: {fileID: 7564929083670095463, guid: 8fc99b22d4b64214dbac9c38d6397a3a, type: 3}
+  AvatarSpawning: 0
+  AvatarPrefab: {fileID: 826714951685151514, guid: cef6ff2bac648ec4cb97131b51c00ff9, type: 3}
   AvatarSpawnLocation: {fileID: 0}
   SpawnAvatarPerIndex: 0
   AvatarSpawnLocations: []
@@ -78,10 +78,34 @@ MonoBehaviour:
       m_Calls: []
   OnRoomJoined:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   OnRoomLeft:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   OnRoomListUpdated:
     m_PersistentCalls:
       m_Calls: []

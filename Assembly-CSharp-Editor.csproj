@@ -371,6 +371,9 @@
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
+    <Reference Include="Alteruna.TrinityEditor">
+      <HintPath>Assets\Alteruna\Plugins\Alteruna.TrinityEditor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
@@ -386,14 +389,11 @@
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
-    <Reference Include="PackageManagerAssembly">
-      <HintPath>Assets\UnityTechnologies\EffectExamples\Editor\PackageManagerAssembly\PackageManagerAssembly.dll</HintPath>
-    </Reference>
-    <Reference Include="Alteruna.TrinityEditor">
-      <HintPath>Assets\Alteruna\Plugins\Alteruna.TrinityEditor.dll</HintPath>
-    </Reference>
     <Reference Include="Alteruna.Trinity">
       <HintPath>Assets\Alteruna\Plugins\Alteruna.Trinity.dll</HintPath>
+    </Reference>
+    <Reference Include="PackageManagerAssembly">
+      <HintPath>Assets\UnityTechnologies\EffectExamples\Editor\PackageManagerAssembly\PackageManagerAssembly.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -848,6 +848,9 @@
     <Reference Include="Unity.XR.Oculus.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Animation.Rigging.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Tutorials.Core">
       <HintPath>Library\ScriptAssemblies\Unity.Tutorials.Core.dll</HintPath>
     </Reference>
@@ -904,6 +907,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging">
+      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
@@ -967,12 +973,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Animation.Rigging.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Animation.Rigging">
-      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

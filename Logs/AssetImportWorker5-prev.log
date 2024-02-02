@@ -15,7 +15,7 @@ D:/BONE-PHYSICS
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-51596
+52869
 Successfully changed project path to: D:/BONE-PHYSICS
 D:/BONE-PHYSICS
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ D:/BONE-PHYSICS
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 231.97 ms, found 28 plugins.
-Preloading 1 native plugins for Editor in 1.19 ms.
+Refreshing native plugins compatible for Editor in 182.22 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.87 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/BONE-PHYSICS/Assets
@@ -67,52 +67,52 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009174 seconds.
+Registered in 0.008079 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 141.05 ms, found 28 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 143.31 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.683 seconds
+- Completed reload, in  0.672 seconds
 Domain Reload Profiling:
-	ReloadAssembly (684ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (672ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (496ms)
-			LoadAssemblies (80ms)
+		EndReloadAssembly (479ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (92ms)
+			SetupTypeCache (89ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (330ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (317ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (58ms)
+				InitializePlatformSupportModulesInManaged (51ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (141ms)
+				RefreshPlugins (144ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (85ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012072 seconds.
+Registered in 0.012573 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 146.04 ms, found 28 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
+Refreshing native plugins compatible for Editor in 143.30 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:257 
@@ -130,47 +130,47 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.725 seconds
+- Completed reload, in  1.822 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1726ms)
-		BeginReloadAssembly (218ms)
+	ReloadAssembly (1823ms)
+		BeginReloadAssembly (208ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (130ms)
-		EndReloadAssembly (1402ms)
-			LoadAssemblies (99ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (1512ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (287ms)
+			SetupTypeCache (296ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (106ms)
-			SetupLoadedEditorAssemblies (870ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (960ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (146ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (550ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
+				RefreshPlugins (143ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (635ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Shader 'SLZ/ShadowOnly': fallback shader 'False' not found
-Shader 'SLZ/VoidBleed': fallback shader 'False' not found
 Shader 'SLZ/VR_Triplanar': fallback shader '1' not found
 Shader 'ZeroLab/VR_Dissolve': fallback shader '1' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.78 ms, found 28 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 7101 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 199 unused Assets / (4.8 MB). Loaded Objects now: 7473.
-Memory consumption went from 339.1 MB to 334.3 MB.
-Total: 5.132000 ms (FindLiveObjects: 0.431300 ms CreateObjectMapping: 0.242500 ms MarkObjects: 3.222900 ms  DeleteObjects: 1.234000 ms)
+Shader 'SLZ/ShadowOnly': fallback shader 'False' not found
+Shader 'SLZ/VoidBleed': fallback shader 'False' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.58 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 7232 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 202 unused Assets / (4.4 MB). Loaded Objects now: 7633.
+Memory consumption went from 342.8 MB to 338.4 MB.
+Total: 13.544800 ms (FindLiveObjects: 1.545900 ms CreateObjectMapping: 1.059800 ms MarkObjects: 9.746500 ms  DeleteObjects: 1.191200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -183,20 +183,14 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 3473.422885 seconds.
-  path: Assets/HurricaneVR/TechDemo/Textures/safe_normal.jpg
-  artifactKey: Guid(43f9e269620ae674ea1316cde2ca9d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HurricaneVR/TechDemo/Textures/safe_normal.jpg using Guid(43f9e269620ae674ea1316cde2ca9d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c633dbe0fb030803ab63ad3b85953454') in 0.160768 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009361 seconds.
+Registered in 0.012222 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.63 ms, found 28 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 2.08 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:257 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:242 
@@ -213,44 +207,44 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.378 seconds
+- Completed reload, in  1.612 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1378ms)
-		BeginReloadAssembly (128ms)
+	ReloadAssembly (1613ms)
+		BeginReloadAssembly (185ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1162ms)
-			LoadAssemblies (89ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1316ms)
+			LoadAssemblies (143ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (301ms)
+			SetupTypeCache (316ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (640ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (728ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (481ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (561ms)
 				ProcessInitializeOnLoadMethodAttributes (49ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Shader 'SLZ/ShadowOnly': fallback shader 'False' not found
-Shader 'SLZ/VoidBleed': fallback shader 'False' not found
 Shader 'SLZ/VR_Triplanar': fallback shader '1' not found
 Shader 'ZeroLab/VR_Dissolve': fallback shader '1' not found
-Refreshing native plugins compatible for Editor in 7.38 ms, found 28 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
-Unloading 6654 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 179 unused Assets / (4.7 MB). Loaded Objects now: 7481.
-Memory consumption went from 300.3 MB to 295.6 MB.
-Total: 5.537900 ms (FindLiveObjects: 0.364300 ms CreateObjectMapping: 0.277000 ms MarkObjects: 3.662500 ms  DeleteObjects: 1.232200 ms)
+Shader 'SLZ/ShadowOnly': fallback shader 'False' not found
+Shader 'SLZ/VoidBleed': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 9.13 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 6782 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 181 unused Assets / (4.4 MB). Loaded Objects now: 7638.
+Memory consumption went from 299.7 MB to 295.3 MB.
+Total: 7.597500 ms (FindLiveObjects: 0.531500 ms CreateObjectMapping: 0.395700 ms MarkObjects: 5.648800 ms  DeleteObjects: 1.019700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -264,16 +258,84 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
-Shader 'SLZ/ShadowOnly': fallback shader 'False' not found
-Shader 'SLZ/VoidBleed': fallback shader 'False' not found
+Registering precompiled user dll's ...
+Registered in 0.012389 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.34 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:257 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:242 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <1f0be198f5164d2489de92f22c998266>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path D:\BONE-PHYSICS\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <1f0be198f5164d2489de92f22c998266>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.565 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1566ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1298ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (314ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (725ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (558ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
 Shader 'SLZ/VR_Triplanar': fallback shader '1' not found
 Shader 'ZeroLab/VR_Dissolve': fallback shader '1' not found
-Refreshing native plugins compatible for Editor in 16.57 ms, found 28 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 179 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 179 unused Assets / (4.7 MB). Loaded Objects now: 7481.
-Memory consumption went from 170.8 MB to 166.1 MB.
-Total: 7.496400 ms (FindLiveObjects: 0.620700 ms CreateObjectMapping: 0.690000 ms MarkObjects: 4.918200 ms  DeleteObjects: 1.265900 ms)
+Shader 'SLZ/ShadowOnly': fallback shader 'False' not found
+Shader 'SLZ/VoidBleed': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 8.26 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 6782 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 181 unused Assets / (4.4 MB). Loaded Objects now: 7643.
+Memory consumption went from 299.8 MB to 295.4 MB.
+Total: 7.444100 ms (FindLiveObjects: 0.559000 ms CreateObjectMapping: 0.481800 ms MarkObjects: 4.853600 ms  DeleteObjects: 1.548700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -285,3 +347,814 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016629 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.92 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:257 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:242 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <1f0be198f5164d2489de92f22c998266>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.155 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2156ms)
+		BeginReloadAssembly (267ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1768ms)
+			LoadAssemblies (226ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (462ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (127ms)
+			SetupLoadedEditorAssemblies (951ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (736ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Shader 'SLZ/VR_Triplanar': fallback shader '1' not found
+Shader 'SLZ/ShadowOnly': fallback shader 'False' not found
+Shader 'SLZ/VoidBleed': fallback shader 'False' not found
+Shader 'ZeroLab/VR_Dissolve': fallback shader '1' not found
+Refreshing native plugins compatible for Editor in 8.75 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 6782 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 181 unused Assets / (4.4 MB). Loaded Objects now: 7648.
+Memory consumption went from 299.8 MB to 295.4 MB.
+Total: 6.494700 ms (FindLiveObjects: 0.546500 ms CreateObjectMapping: 0.310900 ms MarkObjects: 4.285200 ms  DeleteObjects: 1.350800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'SLZ/VR_Triplanar': fallback shader '1' not found
+Shader 'SLZ/ShadowOnly': fallback shader 'False' not found
+Shader 'SLZ/VoidBleed': fallback shader 'False' not found
+Shader 'ZeroLab/VR_Dissolve': fallback shader '1' not found
+Refreshing native plugins compatible for Editor in 14.69 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 181 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 181 unused Assets / (4.4 MB). Loaded Objects now: 7648.
+Memory consumption went from 167.7 MB to 163.3 MB.
+Total: 5.615500 ms (FindLiveObjects: 0.543800 ms CreateObjectMapping: 0.406500 ms MarkObjects: 3.681600 ms  DeleteObjects: 0.982300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022870 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.17 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:257 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:242 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <1f0be198f5164d2489de92f22c998266>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.469 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2469ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (2121ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (502ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (131ms)
+			SetupLoadedEditorAssemblies (1178ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (941ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Shader 'SLZ/VR_Triplanar': fallback shader '1' not found
+Shader 'SLZ/ShadowOnly': fallback shader 'False' not found
+Shader 'SLZ/VoidBleed': fallback shader 'False' not found
+Shader 'ZeroLab/VR_Dissolve': fallback shader '1' not found
+Refreshing native plugins compatible for Editor in 9.52 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 6777 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 190 unused Assets / (4.4 MB). Loaded Objects now: 7643.
+Memory consumption went from 299.7 MB to 295.3 MB.
+Total: 7.203000 ms (FindLiveObjects: 0.460100 ms CreateObjectMapping: 0.436500 ms MarkObjects: 3.970900 ms  DeleteObjects: 2.334100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014321 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 3.44 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:257 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:242 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <1f0be198f5164d2489de92f22c998266>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.670 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1671ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1417ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (803ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (619ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'SLZ/VR_Triplanar': fallback shader '1' not found
+Shader 'SLZ/ShadowOnly': fallback shader 'False' not found
+Shader 'SLZ/VoidBleed': fallback shader 'False' not found
+Shader 'ZeroLab/VR_Dissolve': fallback shader '1' not found
+Refreshing native plugins compatible for Editor in 9.75 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 6777 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 180 unused Assets / (4.4 MB). Loaded Objects now: 7648.
+Memory consumption went from 299.7 MB to 295.3 MB.
+Total: 5.381900 ms (FindLiveObjects: 0.705400 ms CreateObjectMapping: 0.289400 ms MarkObjects: 2.581500 ms  DeleteObjects: 1.804400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'SLZ/VR_Triplanar': fallback shader '1' not found
+Shader 'SLZ/ShadowOnly': fallback shader 'False' not found
+Shader 'SLZ/VoidBleed': fallback shader 'False' not found
+Shader 'ZeroLab/VR_Dissolve': fallback shader '1' not found
+Refreshing native plugins compatible for Editor in 20.36 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 180 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 180 unused Assets / (4.4 MB). Loaded Objects now: 7648.
+Memory consumption went from 167.7 MB to 163.3 MB.
+Total: 8.193800 ms (FindLiveObjects: 0.450100 ms CreateObjectMapping: 0.426300 ms MarkObjects: 5.352200 ms  DeleteObjects: 1.963200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017571 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.68 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:257 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:242 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <1f0be198f5164d2489de92f22c998266>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.656 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1656ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1394ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (299ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (816ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (622ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Shader 'SLZ/VR_Triplanar': fallback shader '1' not found
+Shader 'SLZ/ShadowOnly': fallback shader 'False' not found
+Shader 'SLZ/VoidBleed': fallback shader 'False' not found
+Shader 'ZeroLab/VR_Dissolve': fallback shader '1' not found
+Refreshing native plugins compatible for Editor in 7.57 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 6777 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 180 unused Assets / (4.4 MB). Loaded Objects now: 7653.
+Memory consumption went from 299.8 MB to 295.3 MB.
+Total: 6.492800 ms (FindLiveObjects: 0.495000 ms CreateObjectMapping: 0.258800 ms MarkObjects: 4.392500 ms  DeleteObjects: 1.345100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'SLZ/VR_Triplanar': fallback shader '1' not found
+Shader 'SLZ/ShadowOnly': fallback shader 'False' not found
+Shader 'SLZ/VoidBleed': fallback shader 'False' not found
+Shader 'ZeroLab/VR_Dissolve': fallback shader '1' not found
+Refreshing native plugins compatible for Editor in 15.92 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 180 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 180 unused Assets / (4.4 MB). Loaded Objects now: 7653.
+Memory consumption went from 167.7 MB to 163.3 MB.
+Total: 5.374700 ms (FindLiveObjects: 0.445700 ms CreateObjectMapping: 0.525500 ms MarkObjects: 3.318000 ms  DeleteObjects: 1.084400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013530 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.54 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:257 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:242 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <1f0be198f5164d2489de92f22c998266>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.977 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1977ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1609ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (357ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (913ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (714ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Shader 'SLZ/VR_Triplanar': fallback shader '1' not found
+Shader 'SLZ/ShadowOnly': fallback shader 'False' not found
+Shader 'SLZ/VoidBleed': fallback shader 'False' not found
+Shader 'ZeroLab/VR_Dissolve': fallback shader '1' not found
+Refreshing native plugins compatible for Editor in 12.30 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 6777 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 180 unused Assets / (4.4 MB). Loaded Objects now: 7658.
+Memory consumption went from 299.8 MB to 295.4 MB.
+Total: 7.531900 ms (FindLiveObjects: 0.542500 ms CreateObjectMapping: 0.522500 ms MarkObjects: 4.581100 ms  DeleteObjects: 1.884100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016246 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:257 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:242 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <1f0be198f5164d2489de92f22c998266>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path D:\BONE-PHYSICS\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <1f0be198f5164d2489de92f22c998266>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path D:\BONE-PHYSICS\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <1f0be198f5164d2489de92f22c998266>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path D:\BONE-PHYSICS\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <1f0be198f5164d2489de92f22c998266>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path D:\BONE-PHYSICS\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <1f0be198f5164d2489de92f22c998266>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.985 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1986ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1724ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (387ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (225ms)
+			SetupLoadedEditorAssemblies (820ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (621ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Shader 'SLZ/VR_Triplanar': fallback shader '1' not found
+Shader 'SLZ/ShadowOnly': fallback shader 'False' not found
+Shader 'SLZ/VoidBleed': fallback shader 'False' not found
+Shader 'ZeroLab/VR_Dissolve': fallback shader '1' not found
+Refreshing native plugins compatible for Editor in 13.58 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 6777 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 180 unused Assets / (4.4 MB). Loaded Objects now: 7663.
+Memory consumption went from 299.8 MB to 295.4 MB.
+Total: 9.368400 ms (FindLiveObjects: 0.853000 ms CreateObjectMapping: 0.308400 ms MarkObjects: 5.956300 ms  DeleteObjects: 2.249500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012891 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.38 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:257 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:242 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <1f0be198f5164d2489de92f22c998266>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.770 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1771ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1497ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (370ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (775ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (588ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Shader 'SLZ/VR_Triplanar': fallback shader '1' not found
+Shader 'SLZ/ShadowOnly': fallback shader 'False' not found
+Shader 'SLZ/VoidBleed': fallback shader 'False' not found
+Shader 'ZeroLab/VR_Dissolve': fallback shader '1' not found
+Refreshing native plugins compatible for Editor in 11.56 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 6777 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 180 unused Assets / (4.4 MB). Loaded Objects now: 7668.
+Memory consumption went from 299.8 MB to 295.4 MB.
+Total: 8.607700 ms (FindLiveObjects: 0.554100 ms CreateObjectMapping: 0.530200 ms MarkObjects: 6.021100 ms  DeleteObjects: 1.499900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011619 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.58 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:257 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\BONE-PHYSICS\Library\PackageCache\com.unity.xr.oculus@3.0.1\Runtime\OculusLoader.cs:242 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <1f0be198f5164d2489de92f22c998266>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.506 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1507ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1264ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (710ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (549ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Shader 'SLZ/VR_Triplanar': fallback shader '1' not found
+Shader 'SLZ/ShadowOnly': fallback shader 'False' not found
+Shader 'SLZ/VoidBleed': fallback shader 'False' not found
+Shader 'ZeroLab/VR_Dissolve': fallback shader '1' not found
+Refreshing native plugins compatible for Editor in 8.19 ms, found 28 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 6777 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 180 unused Assets / (4.4 MB). Loaded Objects now: 7673.
+Memory consumption went from 299.8 MB to 295.4 MB.
+Total: 7.395300 ms (FindLiveObjects: 0.468200 ms CreateObjectMapping: 0.423300 ms MarkObjects: 5.122800 ms  DeleteObjects: 1.379700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16869.128475 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/XRI Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccfa4a2503547d4ac435f200082847a') in 0.062022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.578205 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/AmbienceExposure4k.hdr
+  artifactKey: Guid(c9bc6cdb7a2e78b4c85ae74715b0a355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/AmbienceExposure4k.hdr using Guid(c9bc6cdb7a2e78b4c85ae74715b0a355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609e550dd08c05b3f57ab297d1d2298f') in 0.166635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/HurricaneVR/Framework/Resources/DefaultPoses/OculusPhysicsPoserOpen.asset
+  artifactKey: Guid(73d3bd0553ee13543b2c0a0f7ff2b7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/Framework/Resources/DefaultPoses/OculusPhysicsPoserOpen.asset using Guid(73d3bd0553ee13543b2c0a0f7ff2b7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cad4c7b7db22669bd40640cae41a53') in 0.036365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HurricaneVR/Framework/Scripts/ControllerInput/InputSystem/HVRInputActions.inputactions
+  artifactKey: Guid(66fb30876468dda489c60824a458326c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/Framework/Scripts/ControllerInput/InputSystem/HVRInputActions.inputactions using Guid(66fb30876468dda489c60824a458326c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d9f39e00bffa934b3bc3617d237675') in 0.018791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.483063 seconds.
+  path: Assets/HurricaneVR/Framework/Integrations/FinalIK/PilotPoser.prefab
+  artifactKey: Guid(16c03aec21456d245846990fa95e6f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/Framework/Integrations/FinalIK/PilotPoser.prefab using Guid(16c03aec21456d245846990fa95e6f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ac5f7ca20af07c39df0d19ec5ab3e6') in 0.100567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HurricaneVR/TechDemo/Poses/pose_forcegrabber_hover.asset
+  artifactKey: Guid(e3d5be8765448524994ae1977395c66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Poses/pose_forcegrabber_hover.asset using Guid(e3d5be8765448524994ae1977395c66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854edff8e739ebbd1180c5c721a3e4a2') in 0.006384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/HurricaneVR/TechDemo/Poses/pose_backpack_right.asset
+  artifactKey: Guid(6e574ee6d8b5ab940a225259fd4093d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Poses/pose_backpack_right.asset using Guid(6e574ee6d8b5ab940a225259fd4093d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4881a5e56565eefadd2a790810b673') in 0.005477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HurricaneVR/TechDemo/Poses/pose_open.asset
+  artifactKey: Guid(751557b601e1ba343b800ed353b041a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Poses/pose_open.asset using Guid(751557b601e1ba343b800ed353b041a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f7e21792d6aae78e0f66ba076bb23a') in 0.005339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HurricaneVR/TechDemo/Poses/pose_pistol_slide.asset
+  artifactKey: Guid(1a2109fa5ed5e914a9a820c37614a067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Poses/pose_pistol_slide.asset using Guid(1a2109fa5ed5e914a9a820c37614a067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ace05574b151b7da1eb10344a2e882') in 0.007603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HurricaneVR/TechDemo/Poses/pose_crowbar.asset
+  artifactKey: Guid(11dfb42cd26dd7740865deba9566c654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Poses/pose_crowbar.asset using Guid(11dfb42cd26dd7740865deba9566c654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15d4ea0227f78932232bbc848ccaaca') in 0.006154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HurricaneVR/TechDemo/Poses/pose_hand_grab.asset
+  artifactKey: Guid(427b34afc3c967c45bc4ecccc7dbba9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Poses/pose_hand_grab.asset using Guid(427b34afc3c967c45bc4ecccc7dbba9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0f6d226c1519695c2bd586d13c9085') in 0.005732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.903565 seconds.
+  path: Assets/HurricaneVR/TechDemo/Poses/pose_relaxed.asset
+  artifactKey: Guid(1139240d554b8ac459b46687742704e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Poses/pose_relaxed.asset using Guid(1139240d554b8ac459b46687742704e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bba9c9b26cf397891767e01dd40060f') in 0.006071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HurricaneVR/TechDemo/Scenes/HandSqueezeDemo/pose_squeeze_closed.asset
+  artifactKey: Guid(0e418524dbf49ba43b8f3b9c971a8b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Scenes/HandSqueezeDemo/pose_squeeze_closed.asset using Guid(0e418524dbf49ba43b8f3b9c971a8b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5bd3e477bfcbf13ddffea0a71c0e10') in 0.005089 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -98,12 +98,16 @@
     <Compile Include="Assets\VRTemplateAssets\Scripts\VideoTimeScrubControl.cs" />
     <Compile Include="Assets\Magic Light Probes\Examples\Scripts\Rotator.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaTeleportDemo.cs" />
+    <Compile Include="Assets\Alteruna\Prefabs\TextChat\TextChatSynchronizable.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Integrations\FinalIK\HVREditorIK.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\FindGeometryIntersections.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\Hexa4DemoUIManager.cs" />
     <Compile Include="Assets\Magic Light Probes\MLPCombinedMesh.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\Player\HexaVRIKUpdater.cs" />
+    <Compile Include="Assets\Alteruna\Scripts\Examples\ExampleRpcSerializable.cs" />
+    <Compile Include="Assets\PlayerVRController.cs" />
+    <Compile Include="Assets\Alteruna\Scripts\Examples\ExampleSynchronizable.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\CalculateLightIntensity.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaDemoElevator.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSocketFilter.cs" />
@@ -118,16 +122,19 @@
     <Compile Include="Assets\Magic Light Probes\Passes\FindAreasAtShadingBorders.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\LaunchProjectile.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaDemoGravityCup.cs" />
+    <Compile Include="Assets\Alteruna\Prefabs\RoomMenu\RoomMenu.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\FindOutOfRangePoins.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\SetDistanceFromGeometry.cs" />
     <Compile Include="Assets\Magic Light Probes\MLPQuickEditing.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\VideoPlayerRenderTexture.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHatchDoor.cs" />
+    <Compile Include="Assets\Alteruna\Scripts\Examples\ExampleRpcProcedureParameters.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoKeyHologram.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoLeverDisplay.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSlidingDoor.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\BezierCurve.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\CalloutGazeController.cs" />
+    <Compile Include="Assets\Alteruna\Scripts\Examples\ExampleAttributeRpc.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoValveLock.cs" />
     <Compile Include="Assets\Scenes\LevelManager.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\CullByHeight.cs" />
@@ -159,13 +166,6 @@
     <Compile Include="Assets\Magic Light Probes\Passes\RemoveUnusedPoints.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoPassthroughSocket.cs" />
     <Compile Include="Assets\Magic Light Probes\MLPPointData.cs" />
-    <Compile Include="Assets\Alteruna\Scripts\Examples\ExampleAttributeRpc.cs" />
-    <Compile Include="Assets\Alteruna\Scripts\Examples\ExampleRpcSerializable.cs" />
-    <Compile Include="Assets\Alteruna\Prefabs\RoomMenu\RoomMenu.cs" />
-    <Compile Include="Assets\Alteruna\Scripts\Examples\ExampleRpcProcedureParameters.cs" />
-    <Compile Include="Assets\Alteruna\Scripts\Examples\ExampleSynchronizable.cs" />
-    <Compile Include="Assets\Alteruna\Prefabs\TextChat\TextChatSynchronizable.cs" />
-    <Compile Include="Assets\PlayerVRController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\WorldMaterialsFree\Shaders\WorldMatHDRPFree.shader" />
@@ -645,11 +645,11 @@
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Alteruna.TrinityEditor">
       <HintPath>Assets\Alteruna\Plugins\Alteruna.TrinityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Alteruna.Trinity">
       <HintPath>Assets\Alteruna\Plugins\Alteruna.Trinity.dll</HintPath>
@@ -1089,6 +1089,9 @@
     <Reference Include="Unity.XR.Oculus.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Animation.Rigging.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Tutorials.Core">
       <HintPath>Library\ScriptAssemblies\Unity.Tutorials.Core.dll</HintPath>
     </Reference>
@@ -1145,6 +1148,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging">
+      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
@@ -1208,12 +1214,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Animation.Rigging.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Animation.Rigging">
-      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
