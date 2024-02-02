@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d36d99ff80fe02e88761ff6d668dcce3, type: 3}
+  m_Name: Footstep walk
+  m_EditorClassIdentifier:
+  audioClips:
+  - {fileID: 8300000, guid: e17ef0edf47b8574da9cb04b3d28a701, type: 3}
+  - {fileID: 8300000, guid: edea5b6de8c54364fa0f323c274da384, type: 3}
+  - {fileID: 8300000, guid: 171c07d02ee65ff4188c4b9f219ec800, type: 3}
+  - {fileID: 8300000, guid: 1eee1d56da342cb4d80350ef7bc61a02, type: 3}
+  - {fileID: 8300000, guid: df2d292858046cf44bb770611c8f97d5, type: 3}
+  - {fileID: 8300000, guid: 596a60ddeeacdd54ea98a2cc5c23aac8, type: 3}

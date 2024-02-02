@@ -345,8 +345,8 @@
     <Compile Include="Assets\AmplifyShaderEditor\Plugins\Editor\Nodes\SurfaceShaderInputs\SurfaceShaderINParentNode.cs" />
     <Compile Include="Assets\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Time\TimeNode.cs" />
     <Compile Include="Assets\AmplifyShaderEditor\Plugins\Editor\Menu\AmplifyShaderFunctionEditor.cs" />
-    <Compile Include="Assets\AmplifyShaderEditor\Plugins\Editor\Graphs\ParentGraph.cs" />
     <Compile Include="Assets\AmplifyShaderEditor\Plugins\Editor\Templates\TemplatesStencilBufferModule.cs" />
+    <Compile Include="Assets\AmplifyShaderEditor\Plugins\Editor\Graphs\ParentGraph.cs" />
     <Compile Include="Assets\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\ClipNode.cs" />
     <Compile Include="Assets\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\RegisterLocalVarNode.cs" />
     <Compile Include="Assets\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateOptionsDefinesContainer.cs" />
@@ -1005,6 +1005,12 @@
     </Reference>
     <Reference Include="PackageManagerAssembly">
       <HintPath>Assets\UnityTechnologies\EffectExamples\Editor\PackageManagerAssembly\PackageManagerAssembly.dll</HintPath>
+    </Reference>
+    <Reference Include="Alteruna.TrinityEditor">
+      <HintPath>Assets\Alteruna\Plugins\Alteruna.TrinityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Alteruna.Trinity">
+      <HintPath>Assets\Alteruna\Plugins\Alteruna.Trinity.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>

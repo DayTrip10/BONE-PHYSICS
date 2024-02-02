@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d36d99ff80fe02e88761ff6d668dcce3, type: 3}
+  m_Name: Footstep Land
+  m_EditorClassIdentifier:
+  audioClips:
+  - {fileID: 8300000, guid: 5e3e3ad859f031c4782cbb7b3d29a67f, type: 3}
+  - {fileID: 8300000, guid: cf0d9ca9e8fb03b468e4169a8fcf8373, type: 3}
+  - {fileID: 8300000, guid: 288ea144bd13a7546a9798acdb253cef, type: 3}
+  - {fileID: 8300000, guid: 3c9515be484a9544388637d920427e13, type: 3}
+  - {fileID: 8300000, guid: b2f07f5bac034ea47bb896134c9df7dd, type: 3}
+  - {fileID: 8300000, guid: 7b9c9e908fd064a4a9631618128c73e3, type: 3}

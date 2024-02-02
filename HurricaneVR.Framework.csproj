@@ -575,6 +575,12 @@
     <Reference Include="PackageManagerAssembly">
       <HintPath>Assets\UnityTechnologies\EffectExamples\Editor\PackageManagerAssembly\PackageManagerAssembly.dll</HintPath>
     </Reference>
+    <Reference Include="Alteruna.TrinityEditor">
+      <HintPath>Assets\Alteruna\Plugins\Alteruna.TrinityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Alteruna.Trinity">
+      <HintPath>Assets\Alteruna\Plugins\Alteruna.Trinity.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
     </Reference>

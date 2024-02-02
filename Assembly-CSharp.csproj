@@ -66,6 +66,7 @@
     <Compile Include="Assets\Magic Light Probes\MLPCombinedVolume.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHolster.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\FinalIK\HVRVRIKTeleportHandler.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoFullStabConfetti.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoKeypad.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\AnchorVisuals.cs" />
@@ -97,6 +98,7 @@
     <Compile Include="Assets\VRTemplateAssets\Scripts\VideoTimeScrubControl.cs" />
     <Compile Include="Assets\Magic Light Probes\Examples\Scripts\Rotator.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaTeleportDemo.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Integrations\FinalIK\HVREditorIK.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\FindGeometryIntersections.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\Hexa4DemoUIManager.cs" />
     <Compile Include="Assets\Magic Light Probes\MLPCombinedMesh.cs" />
@@ -157,13 +159,19 @@
     <Compile Include="Assets\Magic Light Probes\Passes\RemoveUnusedPoints.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoPassthroughSocket.cs" />
     <Compile Include="Assets\Magic Light Probes\MLPPointData.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Integrations\FinalIK\HVREditorIK.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Integrations\FinalIK\HVRVRIKTeleportHandler.cs" />
+    <Compile Include="Assets\Alteruna\Scripts\Examples\ExampleAttributeRpc.cs" />
+    <Compile Include="Assets\Alteruna\Scripts\Examples\ExampleRpcSerializable.cs" />
+    <Compile Include="Assets\Alteruna\Prefabs\RoomMenu\RoomMenu.cs" />
+    <Compile Include="Assets\Alteruna\Scripts\Examples\ExampleRpcProcedureParameters.cs" />
+    <Compile Include="Assets\Alteruna\Scripts\Examples\ExampleSynchronizable.cs" />
+    <Compile Include="Assets\Alteruna\Prefabs\TextChat\TextChatSynchronizable.cs" />
+    <Compile Include="Assets\PlayerVRController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\WorldMaterialsFree\Shaders\WorldMatHDRPFree.shader" />
     <None Include="Assets\Shaders\VR_triplanar.shader" />
     <None Include="Assets\Shaders\SLZLaser.shader" />
+    <None Include="Assets\Alteruna\Plugins\Alteruna.TrinityEditor.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\Shaders\SLZAdditive Mask.shader" />
     <None Include="Assets\Shaders\GibSkinMAS_Emissive.shader" />
@@ -177,6 +185,7 @@
     <None Include="Assets\WorldMaterialsFree\Shaders\WorldMatLiteFree.shader" />
     <None Include="Assets\Shaders\SLZFalloff.shader" />
     <None Include="Assets\Shaders\Alphafade.shader" />
+    <None Include="Assets\Asset Library\Styleguide.txt" />
     <None Include="Assets\Shaders\SLZAdditive Depth.shader" />
     <None Include="Assets\Shaders\SLZGibSkinMAS Transparent.shader" />
     <None Include="Assets\VRTemplateAssets\Shaders\FauxBlurURP.shader" />
@@ -205,6 +214,7 @@
     <None Include="Assets\Shaders\SLZGrid Glitch.shader" />
     <None Include="Assets\Shaders\SLZGibSkinCrablet.shader" />
     <None Include="Assets\Shaders\VR_arrayTex.shader" />
+    <None Include="Assets\Alteruna\Plugins\Alteruna.Trinity.xml" />
     <None Include="Assets\Magic Light Probes\Passes\Compute Shaders\CalculateDistanceFromGeometry.compute" />
     <None Include="Assets\Shaders\SLZFill Color UV.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
@@ -228,6 +238,7 @@
     <None Include="Assets\Shaders\SLZ-Bloody Decal.shader" />
     <None Include="Assets\Shaders\vr_StandardInput.cginc" />
     <None Include="Assets\Shaders\Nothin.shader" />
+    <None Include="Assets\Asset Library\README.txt" />
     <None Include="Assets\Shaders\SLZ-AdditiveBillboard.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Shaders\SLZFlowmap Alpha.shader" />
@@ -244,6 +255,7 @@
     <None Include="Assets\Shaders\AdditiveDistance.shader" />
     <None Include="Assets\Shaders\HDRAdditive.shader" />
     <None Include="Assets\Shaders\SLZAdditive Hologram with Depth.shader" />
+    <None Include="Assets\Asset Library\License.txt" />
     <None Include="Assets\Shaders\SLZVoid.shader" />
     <None Include="Assets\Shaders\VR_triplanar 2.shader" />
     <None Include="Assets\Shaders\SLZPlanar alpha.shader" />
@@ -289,11 +301,14 @@
     <None Include="Assets\Shaders\VR_triplanar 1.shader" />
     <None Include="Assets\Shaders\vr_fog.cginc" />
     <None Include="Assets\Shaders\SLZMultiplicative Decal.shader" />
+    <None Include="Assets\Alteruna\Resources\RegisteredLicense.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Shaders\SLZMod2x.shader" />
     <None Include="Assets\Shaders\ValveVRSilhouette_0.shader" />
     <None Include="Assets\Shaders\AdditiveDepth.shader" />
     <None Include="Assets\Shaders\SLZFill Color.shader" />
+    <None Include="Assets\Alteruna\Plugins\Alteruna.Trinity.dll" />
+    <None Include="Assets\Ultra Skybox Fog\Textures\Readme.txt" />
     <None Include="Assets\Shaders\ZeroLabVR_Base_BoxCabin.shader" />
     <None Include="Assets\Shaders\VRTemplate.shader" />
     <None Include="Assets\Shaders\SLZ-PlainColor_UV.shader" />
@@ -340,6 +355,7 @@
     <None Include="Assets\Shaders\SLZGlowing Falloff.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\VRTemplateAssets\Shaders\TexturedFresnelStandard.shader" />
+    <None Include="Assets\Ultra Skybox Fog\Shaders\UltraSkyboxFog.shader" />
     <None Include="Assets\UnityTechnologies\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
     <None Include="Assets\Shaders\theaterBorder.shader" />
     <None Include="Assets\Shaders\VR_Dissolve.shader" />
@@ -365,6 +381,7 @@
     <None Include="Assets\Shaders\UnlitVertex Color Multiply.shader" />
     <None Include="Assets\Shaders\VR_LocalTriplanar.shader" />
     <None Include="Assets\Shaders\vr_standard_SLZ.shader" />
+    <None Include="Assets\Ultra Skybox Fog\Manual.txt" />
     <None Include="Assets\Shaders\Mod2xTexarray.shader" />
     <None Include="Assets\Shaders\overlay_shader.shader" />
     <None Include="Assets\Shaders\holographicPortal.shader" />
@@ -372,6 +389,7 @@
     <None Include="Assets\VRTemplateAssets\Materials\Skybox\Horizontal Skybox.shader" />
     <None Include="Assets\Shaders\SLZCloud cover.shader" />
     <None Include="Assets\Shaders\SLZDustyBalls.shader" />
+    <None Include="Assets\Asset Library\Changelog.txt" />
     <None Include="Assets\Shaders\GibSkin.shader" />
     <None Include="Assets\Shaders\UnlitSLZ-AdditiveBillboard.shader" />
     <None Include="Assets\Shaders\WarningGrid.shader" />
@@ -629,6 +647,12 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Alteruna.TrinityEditor">
+      <HintPath>Assets\Alteruna\Plugins\Alteruna.TrinityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Alteruna.Trinity">
+      <HintPath>Assets\Alteruna\Plugins\Alteruna.Trinity.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -1184,6 +1208,12 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging">
+      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

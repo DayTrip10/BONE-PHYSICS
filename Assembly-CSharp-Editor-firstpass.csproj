@@ -57,77 +57,77 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Plugins\RootMotion\Editor\Shared Scripts\PropertyDrawers.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\BipedIKInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKSolverFullBodyInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\RotationLimitHingeInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKEffectorInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\PuppetMaster\PuppetMasterPropInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\ArmIKInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\FingerRigInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\Shared Demo Scripts\CameraControllerInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\EditorIKInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKSolverLookAtInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\PuppetMaster\PuppetMasterInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\Shared Scripts\BipedReferencesInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\LookAtIKInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\InteractionTriggerInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\FABRIKRootInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\PuppetMaster\PuppetMasterLiteInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\AimIKInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\PuppetMaster\PropMuscleInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\_DEMOS\BendGoalInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\Baker\Helpers\SaveClipFolderPanel.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\GroundingInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\Shared Scripts\Inspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\RagdollManager\SymmetryTools.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\LimbIKInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\RagdollManager\CharacterJointInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\Shared Scripts\SerializedContent.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKSolverFullBodyBipedInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\RagdollManager\BipedRagdollCreatorInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\RagdollManager\RagdollEditorInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKSolverAimInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKSolverInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\RagdollManager\ConvertToConfigurableJoints.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\FullBodyBipedIKInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\LegIKInspector.cs" />
     <Compile Include="Assets\Plugins\HexabodyVR\SampleScene\Scripts\Editor\HexaCommentsInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\PuppetMaster\BehaviourPuppetMasterPropsDrawer.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\BipedIKSolversInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\TrigonometricIKInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\RagdollManager\ColliderTools.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\RotationLimitInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\Baker\HumanoidBakerInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\InteractionTargetInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKSolverLimbInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKSolverArmInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\Shared Scripts\InspectorCommentDrawer.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\Shared Scripts\CommentsInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\ConstraintsInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKSolverHeuristicInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKSolverLegInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\AimPoserInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\PuppetMaster\_DEMOS\PuppetMasterPropMeleeInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\PuppetMaster\_DEMOS\CharacterPuppetInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\RagdollManager\ConfigurableJointInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\Baker\GenericBakerInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\CCDIKInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKSolverFABRIKRootInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\VRIKInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\PuppetMaster\PuppetMasterHumanoidConfigInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\RagdollManager\JointTools.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\RagdollManager\JointInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\RotationLimitSplineInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\Baker\Helpers\AnimationUtilityExtended.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\RotationLimitAngleInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKSolverTrigonometricInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\FABRIKInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKExecutionOrderInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\PuppetMaster\_DEMOS\CharacterMeleeDemoInspector.cs" />
+    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\Baker\BakerInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\PuppetMaster\WeightDrawer.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKSolverArmInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKSolverHeuristicInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKSolverFABRIKRootInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKSolverLegInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\InteractionTriggerInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\InteractionTargetInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\BipedIKInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\AimPoserInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKSolverFullBodyInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKSolverLimbInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\FABRIKRootInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\EditorIKInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\RotationLimitHingeInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKEffectorInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKSolverFullBodyBipedInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\GroundingInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\RotationLimitSplineInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKSolverAimInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\RotationLimitAngleInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\TrigonometricIKInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKSolverTrigonometricInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKSolverInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\AimIKInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\ConstraintsInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\FABRIKInspector.cs" />
     <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\RotationLimitPolygonalInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\FullBodyBipedIKInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\LegIKInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\LimbIKInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\RotationLimitInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\_DEMOS\BendGoalInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKSolverLookAtInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\VRIKInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\IKExecutionOrderInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\ArmIKInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\CCDIKInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\FingerRigInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\LookAtIKInspector.cs" />
-    <Compile Include="Assets\Plugins\RootMotion\Editor\FinalIK\BipedIKSolversInspector.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -417,6 +417,12 @@
     </Reference>
     <Reference Include="PackageManagerAssembly">
       <HintPath>Assets\UnityTechnologies\EffectExamples\Editor\PackageManagerAssembly\PackageManagerAssembly.dll</HintPath>
+    </Reference>
+    <Reference Include="Alteruna.TrinityEditor">
+      <HintPath>Assets\Alteruna\Plugins\Alteruna.TrinityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Alteruna.Trinity">
+      <HintPath>Assets\Alteruna\Plugins\Alteruna.Trinity.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -990,6 +996,12 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging">
+      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

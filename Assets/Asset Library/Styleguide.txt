@@ -1,0 +1,9 @@
+Files are organized in a way that should hopefully reduce clutter for users. 
+
+Materials and prefabs are the main folders for use so only relevant materials are included. Materials for singular objects that would never be applied to level geometry are inside the 'sources' folder.
+
+When adding new world textures, please make a material using SLZ's lit workflow. Unused maps do not need to be included.
+
+When adding models, please setup the correct material in import remapping settings, and prefab (usually marking as static).
+
+When you're uploading changes to the drive, please mark it down in the changelog until a better solution is available. Feel free to share progress in the mod-progress thread :)

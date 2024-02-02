@@ -1,0 +1,23 @@
+10/12/2022 - 19:00 PM GMT+2 - Crixus
+Added Air ducts as a unity package. 
+
+10/10/2022 - 6:30 AM CST - electricdragon
+Buttons now have sounds, joints, and can trigger events through UltEvents.
+
+10/5/2022 - 7:30 AM CST - electricdragon
+Buttons are now prefabbed and collidered.
+
+10/4/2022 - 6:30 PM CST - Check
+Added Spray-Atlas 1, a page of spray painted decals
+
+10/4/2022 - 6:00 PM CST - electricdragon
+Changed buttons to be tintable, properly.
+
+10/4/2022 - 2:00 AM CST - electricdragon
+Added button WIPS, tint map shader, and changed handrails to use tint maps.
+
+10/3/2022 - 7:00 PM CST - electricdragon
+Adjusted holopanel tiling and changed handrail colliders from mesh to manual.
+
+10/2/2022 - 5:00 PM CST - electricdragon
+Initial assets put online!

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d36d99ff80fe02e88761ff6d668dcce3, type: 3}
+  m_Name: Footstep Jog
+  m_EditorClassIdentifier:
+  audioClips:
+  - {fileID: 8300000, guid: 058af5b4589ad2a44a29d8d9c2b4fad0, type: 3}
+  - {fileID: 8300000, guid: ecad63e9ced0f1247a6777d95c557faf, type: 3}
+  - {fileID: 8300000, guid: 85ff00f5079b1e041941810eb4b2e562, type: 3}
+  - {fileID: 8300000, guid: 385362b4bcecc2a44aeec3761e6e1f9b, type: 3}
+  - {fileID: 8300000, guid: e23c113b946fa5c43994931487726d9e, type: 3}
+  - {fileID: 8300000, guid: f8f2ad681c3619b42860ea39c2a4d306, type: 3}
