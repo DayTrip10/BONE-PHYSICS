@@ -818,7 +818,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2114741780}
   - component: {fileID: 3443989695151185182}
-  - component: {fileID: 1825622491}
+  - component: {fileID: 8161872752201314323}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -856,7 +856,7 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
---- !u!114 &1825622491
+--- !u!114 &8161872752201314323
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2123,7 +2123,7 @@ MonoBehaviour:
   ContentContainer: {fileID: 8763101912591529868}
   StartButton: {fileID: 614504085}
   LeaveButton: {fileID: 2005702001}
-  ShowUserCount: 0
+  ShowUserCount: 1
   AutomaticallyRefresh: 1
   RefreshInterval: 5
 --- !u!1 &8763101913713047505

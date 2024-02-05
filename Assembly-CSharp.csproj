@@ -61,12 +61,14 @@
     <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\Player\HVRHexaBodyHands.cs" />
     <Compile Include="Assets\Magic Light Probes\MLPSettings.cs" />
     <Compile Include="Assets\Magic Light Probes\MagicLightProbes.cs" />
+    <Compile Include="Assets\Alteruna\Prefabs\MatchmakingMenu\MatchmakingEntry.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\FindClosestPoints.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoKeypadButton.cs" />
     <Compile Include="Assets\Magic Light Probes\MLPCombinedVolume.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHolster.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Integrations\FinalIK\HVRVRIKTeleportHandler.cs" />
+    <Compile Include="Assets\Alteruna\Prefabs\MatchmakingMenu\MatchmakingMenu.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoFullStabConfetti.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoKeypad.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\AnchorVisuals.cs" />
@@ -141,6 +143,7 @@
     <Compile Include="Assets\Magic Light Probes\MLPForceSaveProbes.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\PartialVolumeFilling.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaDemoSlideManager.cs" />
+    <Compile Include="Assets\fixedtracker.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\CullingByEquivalentColor.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
@@ -150,6 +153,7 @@
     <Compile Include="Assets\Magic Light Probes\MLPForceNoProbes.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\CheckVisibility.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoCodeGrabbing.cs" />
+    <Compile Include="Assets\Alteruna\Plugins\websocket.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\DublicateVertical.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\Player\HVRHexaBodyInputs.cs" />
@@ -238,6 +242,7 @@
     <None Include="Assets\Shaders\SLZ-Bloody Decal.shader" />
     <None Include="Assets\Shaders\vr_StandardInput.cginc" />
     <None Include="Assets\Shaders\Nothin.shader" />
+    <None Include="Assets\Lux URP Essentials\Shaders\Volumetrics\Lux URP FX LightBeam.shader" />
     <None Include="Assets\Asset Library\README.txt" />
     <None Include="Assets\Shaders\SLZ-AdditiveBillboard.shader" />
     <None Include="Assets\Alteruna\Resources\RegisteredLicense.txt" />

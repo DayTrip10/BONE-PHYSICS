@@ -1724,6 +1724,12 @@
             When false, collisions will not cause the object to switch which client is simulated on.
             </summary>
     </member>
+    <member name="F:Alteruna.RigidbodySynchronizableCommon.ApplyAsTransform">
+      <summary>
+            When true, the object will be moved and rotated using its transform directly instead of using the physics engine.
+            This is not recommended, but may resolve some issues where the it doesn't sync correctly.
+            </summary>
+    </member>
     <member name="M:Alteruna.RigidbodySynchronizableCommon.AssembleData(Alteruna.Writer,System.Byte)"></member>
     <member name="M:Alteruna.RigidbodySynchronizableCommon.Awake"></member>
     <member name="M:Alteruna.RigidbodySynchronizableCommon.DisassembleData(Alteruna.Reader,System.Byte)"></member>
@@ -1751,6 +1757,7 @@
     </member>
     <member name="M:Alteruna.RigidbodySynchronizableCommon.OnCollisionEnter(UnityEngine.Collision)"></member>
     <member name="M:Alteruna.RigidbodySynchronizableCommon.OnCollisionEnter2D(UnityEngine.Collision2D)"></member>
+    <member name="M:Alteruna.RigidbodySynchronizableCommon.OnEnable"></member>
     <member name="M:Alteruna.RigidbodySynchronizableCommon.Possessed(System.Boolean,Alteruna.User)"></member>
     <member name="M:Alteruna.RigidbodySynchronizableCommon.Reset"></member>
     <member name="F:Alteruna.RigidbodySynchronizableCommon.SendData">
