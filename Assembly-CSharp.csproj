@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2021_3_5;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;USE_INPUT_SYSTEM_POSE_CONTROL;UNITY_POST_PROCESSING_STACK_V2;TERRAINPACKAGE_EXIST;BAKERY_INCLUDED;BAKERYPACKAGE_EXIST;AMPLIFY_SHADER_EDITOR;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_5;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;USE_INPUT_SYSTEM_POSE_CONTROL;UNITY_POST_PROCESSING_STACK_V2;TERRAINPACKAGE_EXIST;BAKERY_INCLUDED;BAKERYPACKAGE_EXIST;AMPLIFY_SHADER_EDITOR;FISHNET;FISHNET_V3;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="D:\BONE-PHYSICS\Assets\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaDemoRockWall.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="Assets\Magic Light Probes\Passes\FindClosestPoints.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoKeypadButton.cs" />
     <Compile Include="Assets\Magic Light Probes\MLPCombinedVolume.cs" />
+    <Compile Include="Assets\HurricaneVR-Fishnet-master\Scripts\RemoteComponentsManager.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHolster.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Integrations\FinalIK\HVRVRIKTeleportHandler.cs" />
@@ -86,11 +88,13 @@
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHelper.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\XRKnob.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoManualTeleport.cs" />
+    <Compile Include="Assets\HurricaneVR-Fishnet-master\Scripts\NetworkDestructible.cs" />
     <Compile Include="Assets\VR Body\IKFootSolver.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\StoreNearLights.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\Callout.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\CheckNearbyGeometry.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSafeDoor.cs" />
+    <Compile Include="Assets\HurricaneVR-Fishnet-master\Scripts\NetworkGun.cs" />
     <Compile Include="Assets\Magic Light Probes\MLPVolume.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\StepManager.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoUIManager.cs" />
@@ -112,6 +116,7 @@
     <Compile Include="Assets\Alteruna\Scripts\Examples\ExampleSynchronizable.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\CalculateLightIntensity.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaDemoElevator.cs" />
+    <Compile Include="Assets\FishNet\Upgrading\UpgradeFromMirrorMenu.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSocketFilter.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scenes\HandSqueezeDemo\DemoPoseSqueeze.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\CullByLightIntensity.cs" />
@@ -128,6 +133,8 @@
     <Compile Include="Assets\Magic Light Probes\Passes\FindOutOfRangePoins.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\SetDistanceFromGeometry.cs" />
     <Compile Include="Assets\Magic Light Probes\MLPQuickEditing.cs" />
+    <Compile Include="Assets\HurricaneVR-Fishnet-master\Scripts\CustomHVRDestructible.cs" />
+    <Compile Include="Assets\Multiplayer XR Template\Scripts\AvatarDesigner.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\VideoPlayerRenderTexture.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHatchDoor.cs" />
     <Compile Include="Assets\Alteruna\Scripts\Examples\ExampleRpcProcedureParameters.cs" />
@@ -136,17 +143,23 @@
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSlidingDoor.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\BezierCurve.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\CalloutGazeController.cs" />
+    <Compile Include="Assets\HurricaneVR-Fishnet-master\Scripts\NetworkDamageHandler.cs" />
     <Compile Include="Assets\Alteruna\Scripts\Examples\ExampleAttributeRpc.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoValveLock.cs" />
     <Compile Include="Assets\Scenes\LevelManager.cs" />
+    <Compile Include="Assets\FishNet\Upgrading\MirrorUpgrade.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\CullByHeight.cs" />
     <Compile Include="Assets\Magic Light Probes\MLPForceSaveProbes.cs" />
+    <Compile Include="Assets\Multiplayer XR Template\Scripts\SetEnableStatusOnPossession.cs" />
+    <Compile Include="Assets\HurricaneVR-Fishnet-master\Scripts\CustomHVRGunBase.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\PartialVolumeFilling.cs" />
+    <Compile Include="Assets\HurricaneVR-Fishnet-master\Scripts\RevivableDestructible.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\TechDemo\Scripts\HexaDemoSlideManager.cs" />
     <Compile Include="Assets\fixedtracker.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\CullingByEquivalentColor.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
+    <Compile Include="Assets\Multiplayer XR Template\Scripts\AutoJoin.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHolsterOrientation.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\RayAttachModifier.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSafeDial.cs" />
@@ -157,14 +170,17 @@
     <Compile Include="Assets\UnityTechnologies\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\DublicateVertical.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Integrations\HexaBodyVR\Player\HVRHexaBodyInputs.cs" />
+    <Compile Include="Assets\HurricaneVR-Fishnet-master\Scripts\CustomHVRDamageHandler.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHeavyDoor.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\GunShoot.cs" />
+    <Compile Include="Assets\HurricaneVR-Fishnet-master\Scripts\NetworkHead.cs" />
     <Compile Include="Assets\Magic Light Probes\Examples\Scripts\PingPong.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\DestroyObject.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\CullGeometryCollisions.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoGlassRotate.cs" />
     <Compile Include="Assets\Magic Light Probes\MLPTracePoint.cs" />
+    <Compile Include="Assets\HurricaneVR-Fishnet-master\Scripts\NetworkGrabbable.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\FindGeometryEdges.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoDummyArm.cs" />
     <Compile Include="Assets\Magic Light Probes\Passes\RemoveUnusedPoints.cs" />
@@ -206,6 +222,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Shaders\SLZCloud Cover Low.shader" />
     <None Include="Assets\Shaders\SLZHolographic Wall Global.shader" />
+    <None Include="Assets\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.dll" />
     <None Include="Assets\Shaders\SLZBaked Vertex Lighting.shader" />
     <None Include="Assets\Shaders\SLZ_LitHologram.shader" />
     <None Include="Assets\Shaders\holographicwall.shader" />
@@ -219,6 +236,9 @@
     <None Include="Assets\Shaders\SLZGibSkinCrablet.shader" />
     <None Include="Assets\Shaders\VR_arrayTex.shader" />
     <None Include="Assets\Alteruna\Plugins\Alteruna.Trinity.xml" />
+    <None Include="Assets\FishNet\Plugins\CodeAnalysis\README.txt" />
+    <None Include="Assets\FishNet\LICENSE.txt" />
+    <None Include="Assets\FishNet\Plugins\CodeAnalysis\LICENSE.txt" />
     <None Include="Assets\Magic Light Probes\Passes\Compute Shaders\CalculateDistanceFromGeometry.compute" />
     <None Include="Assets\Shaders\SLZFill Color UV.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
@@ -229,6 +249,7 @@
     <None Include="Assets\Shaders\SLZHighlighter.shader" />
     <None Include="Assets\Shaders\Simple Fluorescent.shader" />
     <None Include="Assets\Shaders\vr_utils.cginc" />
+    <None Include="Assets\FishNet\VERSION.txt" />
     <None Include="Assets\Shaders\VoidBleed.shader" />
     <None Include="Assets\Shaders\SLZ-Laser.shader" />
     <None Include="Assets\Shaders\SLZ-GridGlitch.shader" />
@@ -285,6 +306,7 @@
     <None Include="Assets\Shaders\ValveVRSilhouette.shader" />
     <None Include="Assets\Shaders\Valvevr_standard.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\Multiplayer XR Template\Plugins\AlterunaDependency.dll" />
     <None Include="Assets\Shaders\Decal Bump Mod2x.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\Shaders\holographicwallGlobal.shader" />
@@ -292,6 +314,7 @@
     <None Include="Assets\Magic Light Probes\Shaders\MLPVolumeBounds.shader" />
     <None Include="Assets\Shaders\SLZCapsule.shader" />
     <None Include="Assets\Shaders\SLZMultiply.shader" />
+    <None Include="Assets\FishNet\DOCUMENTATION.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\Shaders\SLZAdditive HDR.shader" />
     <None Include="Assets\Shaders\SLZModFalloff.shader" />
@@ -301,6 +324,7 @@
     <None Include="Assets\Shaders\triplanar_alpha.shader" />
     <None Include="Assets\Shaders\holographicKiller.shader" />
     <None Include="Assets\Shaders\ModFalloff.shader" />
+    <None Include="Assets\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.Analyzers.dll" />
     <None Include="Assets\Shaders\VRStandtest.shader" />
     <None Include="Assets\Shaders\VR_Example.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
@@ -377,6 +401,7 @@
     <None Include="Assets\Shaders\VR_Flowmap_additive.shader" />
     <None Include="Assets\Shaders\Mirror.shader" />
     <None Include="Assets\Shaders\VR_particleMotionVector.shader" />
+    <None Include="Assets\Multiplayer XR Template\Tunneling Vignette\TunnelingVignette.shader" />
     <None Include="Assets\Shaders\VertexTinting.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\Shaders\ZoomLens.shader" />
@@ -650,11 +675,17 @@
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
+    <Reference Include="FishNet.CodeAnalysis">
+      <HintPath>Assets\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.dll</HintPath>
+    </Reference>
     <Reference Include="Alteruna.TrinityEditor">
       <HintPath>Assets\Alteruna\Plugins\Alteruna.TrinityEditor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="AlterunaDependency">
+      <HintPath>Assets\Multiplayer XR Template\Plugins\AlterunaDependency.dll</HintPath>
     </Reference>
     <Reference Include="Alteruna.Trinity">
       <HintPath>Assets\Alteruna\Plugins\Alteruna.Trinity.dll</HintPath>
@@ -1169,6 +1200,9 @@
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
@@ -1183,9 +1217,6 @@
     </Reference>
     <Reference Include="Unity.TerrainTools.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
@@ -1226,6 +1257,10 @@
       <Project>{9A75DC04-4CC6-37C4-537E-65FE357F3AA6}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
+    <ProjectReference Include="FishNet.Codegen.Cecil.csproj">
+      <Project>{DD37557E-BF2F-7929-8BC0-69F24FE54B0E}</Project>
+      <Name>FishNet.Codegen.Cecil</Name>
+    </ProjectReference>
     <ProjectReference Include="BakeryRuntimeAssembly.csproj">
       <Project>{93F287BB-4E0F-CBA7-198A-DFC3828C8B54}</Project>
       <Name>BakeryRuntimeAssembly</Name>
@@ -1233,6 +1268,10 @@
     <ProjectReference Include="HurricaneVR.Framework.csproj">
       <Project>{820053FD-FD91-C5CF-4510-B128E6170B42}</Project>
       <Name>HurricaneVR.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
+      <Project>{9F1C5625-1C0C-EDED-F824-6A6983E07C71}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
     <ProjectReference Include="BakeryEditorAssembly.csproj">
       <Project>{8BBADD7B-548D-D4F5-43D8-E4F5908036DE}</Project>
@@ -1242,9 +1281,29 @@
       <Project>{CAB7DA66-F452-B6A3-5123-8160A90BBEA7}</Project>
       <Name>MLMExtensions</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{9F1C5625-1C0C-EDED-F824-6A6983E07C71}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
+    <ProjectReference Include="Alteruna.XRTemplate.basic.csproj">
+      <Project>{44B8D5CA-D6AF-7AEC-7524-BEBB875EE20C}</Project>
+      <Name>Alteruna.XRTemplate.basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="FishNet.Demos.csproj">
+      <Project>{4807BB65-B297-7BB8-3D6F-8902D267EC06}</Project>
+      <Name>FishNet.Demos</Name>
+    </ProjectReference>
+    <ProjectReference Include="FishNet.Runtime.csproj">
+      <Project>{D9930945-7103-D039-EA5D-525BB267FDA7}</Project>
+      <Name>FishNet.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
+      <Project>{BF815EF5-9054-3D4C-6BFB-E8616F59F1E6}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Alteruna.XRTemplate.Editor.csproj">
+      <Project>{5994DF9B-4758-6306-9ED3-7C076F9EBA68}</Project>
+      <Name>Alteruna.XRTemplate.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameKit.Utilities.csproj">
+      <Project>{7935ACC8-E22D-1822-D8C4-90DC31649843}</Project>
+      <Name>GameKit.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="HurricaneVR.Editor.csproj">
       <Project>{C60D8CE6-F50C-8825-5A7D-5199F7BBA5C0}</Project>
@@ -1254,9 +1313,13 @@
       <Project>{CBD6260D-ABD1-6808-A786-AD11F274BB5C}</Project>
       <Name>AmplifyShaderEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
-      <Project>{BF815EF5-9054-3D4C-6BFB-E8616F59F1E6}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
+    <ProjectReference Include="GameKit.Dependencies.csproj">
+      <Project>{96ABD3DA-FF97-51C7-61C4-48ED41C51D68}</Project>
+      <Name>GameKit.Dependencies</Name>
+    </ProjectReference>
+    <ProjectReference Include="Alteruna.XRTemplate.Interaction.csproj">
+      <Project>{DC200CD7-0BB5-BE74-26EB-66B347A62694}</Project>
+      <Name>Alteruna.XRTemplate.Interaction</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
